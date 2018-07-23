@@ -139,4 +139,7 @@ framework module DynamicOoyalaWrapper {
     header "OONextButton.h"
     header "OOVolumeSliderDelegate.h"
     header "OOVolumeSliderProtocol.h"
+    header "OOAudioTrackSelectionProtocol.h"
+    header "OOMultiAudioProtocol"
+    header "OOImages.h"
 }
