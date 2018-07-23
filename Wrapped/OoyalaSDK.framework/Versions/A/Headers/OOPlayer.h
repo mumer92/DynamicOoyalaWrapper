@@ -13,9 +13,10 @@
 #import "OOOoyalaError.h"
 #import "OOPlayerProtocol.h"
 #import "OOLifeCycle.h"
-#import "OOAudioTrackProtocol.h"
+#import "OOAudioTrackSelectionProtocol.h"
 
-@interface OOPlayer : NSObject<OOPlayerProtocol, OOLifeCycle, OOAudioTrackProtocol> { // really, an Abstract class.
+
+@interface OOPlayer : NSObject<OOPlayerProtocol, OOLifeCycle, OOAudioTrackSelectionProtocol> { // really, an Abstract class.
 @protected
   OOOoyalaError *playerError;
   UIView *view;
@@ -34,9 +35,9 @@ extern NSString *const PlayerErrorNotification;
 
 - (BOOL)isAudioOnlyStreamPlaying;
 
-- (CMTimeRange) seekableTimeRange;
+- (CMTimeRange)seekableTimeRange;
 
--(CGRect)videoRect;
+- (CGRect)videoRect;
 
 - (void)setState:(OOOoyalaPlayerState)state;
 @end

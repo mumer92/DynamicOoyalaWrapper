@@ -11,7 +11,9 @@
 #import "OOPlayerProtocol.h"
 #import "OOStream.h"
 #import "OOUnbundledVideo.h"
-#import "OOAudioTrack.h"
+#import "OOMultiAudioProtocol.h"
+#import "OOAssetLoaderDelegate.h"
+
 
 @class OOContentItem;
 @class OOVideo;
@@ -29,7 +31,6 @@
 @class OOManagedAdsPlugin;
 @class OOUserInfo;
 @class OOPlayer;
-@protocol OOAudioTrackProtocol;
 
 /**
  * \defgroup key Most Commonly Used Classes
@@ -43,8 +44,7 @@
 /**
  * Defines player behavior after video playback has ended, defaults to OOOoyalaPlayerActionAtEndContinue
  */
-typedef enum
-{
+typedef NS_ENUM(NSInteger, OOOoyalaPlayerActionAtEnd) {
     /** Start playing next video if available, otherwise pause */
     OOOoyalaPlayerActionAtEndContinue,
     /** Pause at the end of the video */
@@ -53,14 +53,13 @@ typedef enum
     OOOoyalaPlayerActionAtEndStop,
     /** Pause and reset to the beginning of the current video */
     OOOoyalaPlayerActionAtEndReset
-} OOOoyalaPlayerActionAtEnd;
+};
 
 /**
  * Defines which Ooyala API environment is used for API calls.
  * Defaults to OOOoyalaPlayerEnvironmentProduction and should never change for customer apps.
  */
-typedef enum
-{
+typedef NS_ENUM(NSInteger, OOOoyalaPlayerEnvironment) {
   /** Ooyala production environment */
   OOOoyalaPlayerEnvironmentProduction,
   /** Ooyala staging environment */
@@ -69,26 +68,25 @@ typedef enum
   OOOoyalaPlayerEnvironmentNextStaging,
   /** Ooyala local environment */
   OOOoyalaPlayerEnvironmentLocal
-} OOOoyalaPlayerEnvironment;
+};
 
 /** @internal
  * Defines different seek modes, which control the way seeking of the video is performed
  */
-typedef enum {
+typedef NS_ENUM(NSInteger, OOSeekStyle) {
   /** @internal No seeking is allowed */
   OOSeekStyleNone,
   /** @internal Seeking is expensive and can only be performed at the end of user action */
   OOSeekStyleBasic,
   /** @internal Continous seeking is allowed */
   OOSeekStyleEnhanced
-} OOSeekStyle;
+};
 
 /**
  * Defines different slider UI styles
  * Defaults to OOOoyalaPlayerEnvironmentProduction and should never change for customer apps.
  */
-typedef NS_ENUM(NSInteger, OOUIProgressSliderMode)
-{
+typedef NS_ENUM(NSInteger, OOUIProgressSliderMode) {
   OOUIProgressSliderModeLive,
   OOUIProgressSliderModeAdInLive,
   OOUIProgressSliderModeNormal,
@@ -328,11 +326,54 @@ extern NSString *const OOOoyalaplayerExternalPlaybackActiveNotification;
 extern NSString *const OOLiveClosedCaptionsLanguage;
 
 /**
+ *  \memberof OOOoyalaPlayer
+ * 	\brief Notification when we handle vr metatag.
+ * 	\details UserInfo contains bool value "vrContent". YES if video is 360 otherwise NO
+ */
+extern NSString *const OOOoyalaPlayerVideoHasVRContent;
+
+/**
+ * \memberof OOOoyalaPlayer
+ * \brief Notification when VR player did configured
+ * \details No additional data provided.
+ */
+
+extern NSString *const OOOoyalaVRPlayerDidConfigured;
+
+/**
+ * \memberof OOOoyalaPlayer
+ * \brief Notification when pressed switch between stereo and mono
+ * \details No additional data provided.
+ */
+
+extern NSString *const OOOoyalaPlayerSwitchSceneNotification;
+
+/**
+ * \memberof OOOoyalaPlayer
+ * \brief Notification when video view handle touch
+ * \details Data contains touch coordinates and event name.
+ */
+
+extern NSString *const OOOoyalaPlayerHandleTouchNotification;
+
+/**
+ *  \memberof OOOoyalaPlayer
+ *   \brief Notification when asset have multi audio.
+ */
+extern NSString *const OOOoyalaPlayerMultiAudioEnabledNotification;
+
+/**
+ *  \memberof OOOoyalaPlayer
+ *   \brief Notification when audio track changed.
+ */
+extern NSString *const OOOoyalaPlayerAudioTrackChangedNotification;
+
+/**
  * The OoyalaPlayer is the heart of the playback system.
  * Use it to configure and control asset playback, and to be aware of playback state changes.
 * \ingroup key
  */
-@interface OOOoyalaPlayer : NSObject<OOAdPluginManagerProtocol, OOAudioTrackProtocol>
+@interface OOOoyalaPlayer : NSObject<OOAdPluginManagerProtocol, OOMultiAudioProtocol>
 
 #pragma mark Statics
 /**
@@ -429,7 +470,22 @@ extern NSString *const OOLiveClosedCaptionsLanguage;
  */
 @property (nonatomic) float volume;
 
+/**
+ * This property can be used to set the User-Agent for manifest requests served by AVPlayer.
+ * This will not change User-Agent for player api requests.
+ * Note : [player setUserAgent:@"<value>"] should be called after initializing
+ * player but before calling [player setEmbedCode:] method.
+ *
+ */
+@property (nonatomic) NSString *userAgent;
 
+/**
+ * This property can be used to pass Custom Implementation of AVAssetResourceLoaderDelegate
+ * from AVFoundation.
+ * Note : This only for special purposes. Not recommend to use this property often.
+ *        When this property is in use, you CAN NOT use FairPlay.
+ */
+@property (nonatomic) OOAssetLoaderDelegate *assetLoaderDelegate;
 @property (nonatomic) NSString *customDrmData;
 @property (nonatomic, readonly) OOStreamPlayerMapping *streamPlayerMapping;
 @property (nonatomic, readonly) NSString *pcode;
@@ -579,6 +635,12 @@ embedTokenGenerator:(id<OOEmbedTokenGenerator>)embedTokenGenerator
 - (void)setRootItem:(OOContentItem *)theRootItem;
 
 /**
+ * Reinitializes the player with a new asset JSON.
+ * @param[in] asset the new asset JSON to use
+ */
+- (void)setAsset:(NSDictionary *)asset;
+
+/**
  * Sets the current video in a channel, if the video is present.
  * @param[in] embedCode the embed code of the video to play
  * @returns YES if successful; otherwise, returns NO (check OOOoyalaPlayer.error for reason)
@@ -590,6 +652,12 @@ embedTokenGenerator:(id<OOEmbedTokenGenerator>)embedTokenGenerator
  * @returns a BOOL indicating that the item was successfully changed
  */
 - (BOOL)changeCurrentItemToVideo:(OOVideo *)video;
+
+/**
+ * Set the unbundled HA video.
+ * @returns a BOOL indicating that the item was successfully changed
+ */
+- (BOOL) changeUnbundledVideo:(OOVideo *)video;
 
 /**
  * Performs authorization on the current item, refreshing teh auth token if necessary
@@ -836,5 +904,14 @@ if ([notification.name isEqualToString:OOOoyalaPlayerStateChangedNotification]) 
  * Return an OOUserInfo
  */
 - (OOUserInfo *)userInfo;
+
+/**
+ * @returns current frame of current asset
+ */
+- (UIImage *)screenshot;
+/**
+ * Disables the CC in the HLS Playlist.
+ */
+- (void)disablePlaylistClosedCaptions;
 
 @end
