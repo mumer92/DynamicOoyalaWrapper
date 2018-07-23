@@ -104,7 +104,7 @@ framework module DynamicOoyalaWrapper {
     header "OOStreamPlayerMappingPredicate.h"
     header "OOTBXML.h"
     header "OOTransparentToolbar.h"
-    header "OOUIProgressSliderIOS7.h"
+    // header "OOUIProgressSliderIOS7.h"
     header "OOUIUtils.h"
     header "OOUnbundledVideo.h"
     header "OOUserInfo.h"
