@@ -7,163 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D0C3FE52105D33E00449E8D /* OOAdPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F492105D33D00449E8D /* OOAdPlugin.h */; };
-		0D0C3FE62105D33E00449E8D /* OOTimeSliderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F4A2105D33D00449E8D /* OOTimeSliderDelegate.h */; };
-		0D0C3FE72105D33E00449E8D /* OOVASTVMAPAdHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F4B2105D33D00449E8D /* OOVASTVMAPAdHelper.h */; };
-		0D0C3FE82105D33E00449E8D /* OOAudioTrackSelectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F4C2105D33D00449E8D /* OOAudioTrackSelectionProtocol.h */; };
-		0D0C3FE92105D33E00449E8D /* OODebugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F4D2105D33D00449E8D /* OODebugMode.h */; };
-		0D0C3FEA2105D33E00449E8D /* OOIQConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F4E2105D33D00449E8D /* OOIQConfiguration.h */; };
-		0D0C3FEB2105D33E00449E8D /* OOVASTCompanionAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F4F2105D33D00449E8D /* OOVASTCompanionAds.h */; };
-		0D0C3FEC2105D33E00449E8D /* OOVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F502105D33D00449E8D /* OOVASTAd.h */; };
-		0D0C3FED2105D33E00449E8D /* OOTimeSliderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F512105D33D00449E8D /* OOTimeSliderProtocol.h */; };
-		0D0C3FEE2105D33E00449E8D /* OOFCCTVRatingStampView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F522105D33D00449E8D /* OOFCCTVRatingStampView.h */; };
-		0D0C3FEF2105D33E00449E8D /* OOPlayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F532105D33D00449E8D /* OOPlayerProtocol.h */; };
-		0D0C3FF02105D33E00449E8D /* OOAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F542105D33D00449E8D /* OOAdSpot.h */; };
-		0D0C3FF12105D33E00449E8D /* OOUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F552105D33D00449E8D /* OOUIUtils.h */; };
-		0D0C3FF22105D33E00449E8D /* OOUnbundledVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F562105D33D00449E8D /* OOUnbundledVideo.h */; };
-		0D0C3FF32105D33E00449E8D /* OOPerformanceEventWatchCPUProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F572105D33D00449E8D /* OOPerformanceEventWatchCPUProfiling.h */; };
-		0D0C3FF42105D33E00449E8D /* OOPerformanceMonitorBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F582105D33D00449E8D /* OOPerformanceMonitorBuilder.h */; };
-		0D0C3FF52105D33E00449E8D /* OONextButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F592105D33D00449E8D /* OONextButton.h */; };
-		0D0C3FF62105D33E00449E8D /* OOOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F5A2105D33D00449E8D /* OOOptions.h */; };
-		0D0C3FF72105D33E00449E8D /* OOAssetLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F5B2105D33D00449E8D /* OOAssetLoaderDelegate.h */; };
-		0D0C3FF82105D33E00449E8D /* OOVASTLinearAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F5C2105D33D00449E8D /* OOVASTLinearAd.h */; };
-		0D0C3FF92105D33E00449E8D /* OOPerformanceMemoryProfilingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F5D2105D33D00449E8D /* OOPerformanceMemoryProfilingStatistics.h */; };
-		0D0C3FFA2105D33E00449E8D /* OOStreamPlayerMappingPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F5E2105D33D00449E8D /* OOStreamPlayerMappingPredicate.h */; };
-		0D0C3FFB2105D33E00449E8D /* OOSignatureGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F5F2105D33D00449E8D /* OOSignatureGenerator.h */; };
-		0D0C3FFC2105D33E00449E8D /* OOPerformanceFileSpaceProfilingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F602105D33D00449E8D /* OOPerformanceFileSpaceProfilingStatistics.h */; };
-		0D0C3FFD2105D33E00449E8D /* OOControlsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F612105D33D00449E8D /* OOControlsViewController.h */; };
-		0D0C3FFE2105D33E00449E8D /* OOStreamPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F622105D33D00449E8D /* OOStreamPlayer.h */; };
-		0D0C3FFF2105D33E00449E8D /* OOPerformanceEventMatcherProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F632105D33D00449E8D /* OOPerformanceEventMatcherProtocol.h */; };
-		0D0C40002105D33E00449E8D /* OOPerformanceEventWatchStartEnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F642105D33D00449E8D /* OOPerformanceEventWatchStartEnd.h */; };
-		0D0C40012105D33E00449E8D /* OOVideoGravityButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F652105D33D00449E8D /* OOVideoGravityButton.h */; };
-		0D0C40022105D33E00449E8D /* OOVASTNonLinear.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F662105D33D00449E8D /* OOVASTNonLinear.h */; };
-		0D0C40032105D33E00449E8D /* OOPreviousButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F672105D33D00449E8D /* OOPreviousButton.h */; };
-		0D0C40042105D33E00449E8D /* OOPlayerDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F682105D33D00449E8D /* OOPlayerDomain.h */; };
-		0D0C40052105D33E00449E8D /* OOOfflineVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F692105D33D00449E8D /* OOOfflineVideo.h */; };
-		0D0C40062105D33E00449E8D /* OOVolumeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F6A2105D33D00449E8D /* OOVolumeButton.h */; };
-		0D0C40072105D33E00449E8D /* OOClosedCaptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F6B2105D33D00449E8D /* OOClosedCaptions.h */; };
-		0D0C40082105D33E00449E8D /* OOCastModeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F6C2105D33D00449E8D /* OOCastModeOptions.h */; };
-		0D0C40092105D33E00449E8D /* OOStreamPlayerMappingCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F6D2105D33D00449E8D /* OOStreamPlayerMappingCreator.h */; };
-		0D0C400A2105D33E00449E8D /* OOVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F6E2105D33D00449E8D /* OOVideo.h */; };
-		0D0C400B2105D33E00449E8D /* OOFullScreenControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F6F2105D33D00449E8D /* OOFullScreenControlsView.h */; };
-		0D0C400C2105D33E00449E8D /* iOS7ScrubberSliderFraming.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F702105D33D00449E8D /* iOS7ScrubberSliderFraming.h */; };
-		0D0C400D2105D33E00449E8D /* OOCastManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F712105D33D00449E8D /* OOCastManagerProtocol.h */; };
-		0D0C400E2105D33E00449E8D /* OOAdOverlayInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F722105D33D00449E8D /* OOAdOverlayInfo.h */; };
-		0D0C400F2105D33E00449E8D /* OOPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F732105D33D00449E8D /* OOPlayer.h */; };
-		0D0C40102105D33E00449E8D /* OOAnalyticsPluginBaseImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F742105D33D00449E8D /* OOAnalyticsPluginBaseImpl.h */; };
-		0D0C40112105D33E00449E8D /* OOSeekInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F752105D33D00449E8D /* OOSeekInfo.h */; };
-		0D0C40122105D33E00449E8D /* OOLifeCycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F762105D33D00449E8D /* OOLifeCycle.h */; };
-		0D0C40132105D33E00449E8D /* OOProgressSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F772105D33D00449E8D /* OOProgressSliderView.h */; };
-		0D0C40142105D33E00449E8D /* OOClosedCaptionsSelectorBackgroundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F782105D33D00449E8D /* OOClosedCaptionsSelectorBackgroundViewController.h */; };
-		0D0C40152105D33E00449E8D /* OOAdPodInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F792105D33D00449E8D /* OOAdPodInfo.h */; };
-		0D0C40162105D33E00449E8D /* OOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F7A2105D33D00449E8D /* OOStream.h */; };
-		0D0C40172105D33E00449E8D /* OOVolumeSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F7B2105D33D00449E8D /* OOVolumeSliderView.h */; };
-		0D0C40182105D33E00449E8D /* OOFCCTVRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F7C2105D33D00449E8D /* OOFCCTVRating.h */; };
-		0D0C40192105D33E00449E8D /* OOMovingAverage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F7D2105D33D00449E8D /* OOMovingAverage.h */; };
-		0D0C401A2105D33E00449E8D /* OOPerformanceStatisticsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F7E2105D33D00449E8D /* OOPerformanceStatisticsProtocol.h */; };
-		0D0C401B2105D33E00449E8D /* OOEmbedTokenGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F7F2105D33D00449E8D /* OOEmbedTokenGenerator.h */; };
-		0D0C401C2105D33E00449E8D /* OOCaption.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F802105D33D00449E8D /* OOCaption.h */; };
-		0D0C401D2105D33E00449E8D /* OODynamicChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F812105D33D00449E8D /* OODynamicChannel.h */; };
-		0D0C401E2105D33E00449E8D /* OOClosedCaptionsLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F822105D33D00449E8D /* OOClosedCaptionsLabel.h */; };
-		0D0C401F2105D33E00449E8D /* OOPerformanceNotificationNameMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F832105D33D00449E8D /* OOPerformanceNotificationNameMatcher.h */; };
-		0D0C40202105D33E00449E8D /* OOStateNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F842105D33D00449E8D /* OOStateNotifier.h */; };
-		0D0C40212105D33E00449E8D /* OOVASTCompanion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F852105D33D00449E8D /* OOVASTCompanion.h */; };
-		0D0C40222105D33E00449E8D /* OOAnalyticsPluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F862105D33D00449E8D /* OOAnalyticsPluginProtocol.h */; };
-		0D0C40232105D33E00449E8D /* OOFullScreenControlsBottomBarMainControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F872105D33D00449E8D /* OOFullScreenControlsBottomBarMainControlsView.h */; };
-		0D0C40242105D33E00449E8D /* OOInlineControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F882105D33D00449E8D /* OOInlineControlsView.h */; };
-		0D0C40252105D33E00449E8D /* OOTBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F892105D33D00449E8D /* OOTBXML.h */; };
-		0D0C40262105D33E00449E8D /* OOAudioTrackProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F8A2105D33D00449E8D /* OOAudioTrackProtocol.h */; };
-		0D0C40272105D33E00449E8D /* OOVolumeSliderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F8B2105D33D00449E8D /* OOVolumeSliderDelegate.h */; };
-		0D0C40282105D33E00449E8D /* OOAdSpotManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F8C2105D33D00449E8D /* OOAdSpotManager.h */; };
-		0D0C40292105D33E00449E8D /* OOTransparentToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F8D2105D33D00449E8D /* OOTransparentToolbar.h */; };
-		0D0C402A2105D33E00449E8D /* OOPerformanceEventWatchMemoryProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F8E2105D33D00449E8D /* OOPerformanceEventWatchMemoryProfiling.h */; };
-		0D0C402B2105D33E00449E8D /* OOAssetDownloadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F8F2105D33D00449E8D /* OOAssetDownloadStream.h */; };
-		0D0C402C2105D33E00449E8D /* OOVolumeSliderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F902105D33D00449E8D /* OOVolumeSliderProtocol.h */; };
-		0D0C402D2105D33E00449E8D /* OOPerformanceEventWatchProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F912105D33D00449E8D /* OOPerformanceEventWatchProtocol.h */; };
-		0D0C402E2105D33E00449E8D /* OOReturnState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F922105D33D00449E8D /* OOReturnState.h */; };
-		0D0C402F2105D33E00449E8D /* OOUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F932105D33D00449E8D /* OOUserInfo.h */; };
-		0D0C40302105D33E00449E8D /* OOVASTVMAPAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F942105D33D00449E8D /* OOVASTVMAPAdSpot.h */; };
-		0D0C40312105D33E00449E8D /* OOFCCTVRatingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F952105D33D00449E8D /* OOFCCTVRatingConfiguration.h */; };
-		0D0C40322105D33E00449E8D /* OOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F962105D33D00449E8D /* OOChannel.h */; };
-		0D0C40332105D33E00449E8D /* OOClientId.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F972105D33D00449E8D /* OOClientId.h */; };
-		0D0C40342105D33E00449E8D /* OOClosedCaptionsStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F982105D33D00449E8D /* OOClosedCaptionsStyle.h */; };
-		0D0C40352105D33E00449E8D /* OOCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F992105D33D00449E8D /* OOCallbacks.h */; };
-		0D0C40362105D33E00449E8D /* OOOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F9A2105D33D00449E8D /* OOOrderedDictionary.h */; };
-		0D0C40372105D33E00449E8D /* OOEmbeddedSecureURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F9B2105D33D00449E8D /* OOEmbeddedSecureURLGenerator.h */; };
-		0D0C40382105D33E00449E8D /* OODeliveryTypeConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F9C2105D33D00449E8D /* OODeliveryTypeConstants.h */; };
-		0D0C40392105D33E00449E8D /* OOOoyalaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F9D2105D33D00449E8D /* OOOoyalaPlayer.h */; };
-		0D0C403A2105D33E00449E8D /* OOFullscreenButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F9E2105D33D00449E8D /* OOFullscreenButton.h */; };
-		0D0C403B2105D33E00449E8D /* OOIQAnalyticsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3F9F2105D33D00449E8D /* OOIQAnalyticsPlugin.h */; };
-		0D0C403C2105D33E00449E8D /* OOImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA02105D33D00449E8D /* OOImages.h */; };
-		0D0C403D2105D33E00449E8D /* OOFairplayContentKeyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA12105D33D00449E8D /* OOFairplayContentKeyDelegate.h */; };
-		0D0C403E2105D33E00449E8D /* OOVASTOffset.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA22105D33D00449E8D /* OOVASTOffset.h */; };
-		0D0C403F2105D33E00449E8D /* OOPerformanceCountingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA32105D33D00449E8D /* OOPerformanceCountingStatistics.h */; };
-		0D0C40402105D33E00449E8D /* OOOoyalaSimpleTVPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA42105D33D00449E8D /* OOOoyalaSimpleTVPlayerViewController.h */; };
-		0D0C40412105D33E00449E8D /* OOPlayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA52105D33D00449E8D /* OOPlayerInfo.h */; };
-		0D0C40422105D33E00449E8D /* OOOoyalaAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA62105D33D00449E8D /* OOOoyalaAPIClient.h */; };
-		0D0C40432105D33E00449E8D /* OOPerformanceStartEndStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA72105D33D00449E8D /* OOPerformanceStartEndStatistics.h */; };
-		0D0C40442105D33E00449E8D /* OOVASTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA82105D33D00449E8D /* OOVASTConstants.h */; };
-		0D0C40452105D33E00449E8D /* OOPerformanceEventWatchCounting.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FA92105D33D00449E8D /* OOPerformanceEventWatchCounting.h */; };
-		0D0C40462105D33E00449E8D /* OOChannelSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FAA2105D33D00449E8D /* OOChannelSet.h */; };
-		0D0C40472105D33E00449E8D /* OOAirPlayButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FAB2105D33D00449E8D /* OOAirPlayButton.h */; };
-		0D0C40482105D33E00449E8D /* OOCuePointsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FAC2105D33D00449E8D /* OOCuePointsView.h */; };
-		0D0C40492105D33E00449E8D /* OOImagesIOS7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FAD2105D33D00449E8D /* OOImagesIOS7.h */; };
-		0D0C404A2105D33E00449E8D /* OODeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FAE2105D33D00449E8D /* OODeviceInfo.h */; };
-		0D0C404B2105D33E00449E8D /* OOAssetDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FAF2105D33D00449E8D /* OOAssetDownloadManager.h */; };
-		0D0C404C2105D33E00449E8D /* OOPerformanceCPUProfilingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB02105D33D00449E8D /* OOPerformanceCPUProfilingStatistics.h */; };
-		0D0C404D2105D33E00449E8D /* OOAssetDownloadOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB12105D33D00449E8D /* OOAssetDownloadOptions.h */; };
-		0D0C404E2105D33E00449E8D /* OOPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB22105D33D00449E8D /* OOPlayPauseButton.h */; };
-		0D0C404F2105D33E00449E8D /* OOEmbeddedSignatureGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB32105D33D00449E8D /* OOEmbeddedSignatureGenerator.h */; };
-		0D0C40502105D33E00449E8D /* OOControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB42105D33D00449E8D /* OOControls.h */; };
-		0D0C40512105D33E00449E8D /* OOMultiAudioProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB52105D33D00449E8D /* OOMultiAudioProtocol.h */; };
-		0D0C40522105D33E00449E8D /* OODefaultPlayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB62105D33D00449E8D /* OODefaultPlayerInfo.h */; };
-		0D0C40532105D33E00449E8D /* OOPaginatedParentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB72105D33D00449E8D /* OOPaginatedParentItem.h */; };
-		0D0C40542105D33E00449E8D /* OOControlsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB82105D33D00449E8D /* OOControlsDelegate.h */; };
-		0D0C40552105D33E00449E8D /* OOFullScreenControlsTopBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FB92105D33D00449E8D /* OOFullScreenControlsTopBar.h */; };
-		0D0C40562105D33E00449E8D /* OOClosedCaptionsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FBA2105D33D00449E8D /* OOClosedCaptionsButton.h */; };
-		0D0C40572105D33E00449E8D /* OOAuthorizableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FBB2105D33D00449E8D /* OOAuthorizableItem.h */; };
-		0D0C40582105D33E00449E8D /* OOPerformanceStatisticsSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FBC2105D33D00449E8D /* OOPerformanceStatisticsSnapshot.h */; };
-		0D0C40592105D33E00449E8D /* OOAdPluginManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FBD2105D33D00449E8D /* OOAdPluginManagerProtocol.h */; };
-		0D0C405A2105D33E00449E8D /* OOOoyalaPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FBE2105D33D00449E8D /* OOOoyalaPlayerViewController.h */; };
-		0D0C405B2105D33E00449E8D /* OOJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FBF2105D33D00449E8D /* OOJSONKit.h */; };
-		0D0C405C2105D33E00449E8D /* OOVASTStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC02105D33D00449E8D /* OOVASTStream.h */; };
-		0D0C405D2105D33E00449E8D /* OOVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC12105D33D00449E8D /* OOVASTCreative.h */; };
-		0D0C405E2105D33E00449E8D /* OOManagedAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC22105D33D00449E8D /* OOManagedAdSpot.h */; };
-		0D0C405F2105D33E00449E8D /* OOVASTIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC32105D33D00449E8D /* OOVASTIcon.h */; };
-		0D0C40602105D33E00449E8D /* OoyalaSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC42105D33D00449E8D /* OoyalaSDK.h */; };
-		0D0C40612105D33E00449E8D /* OODiscoveryOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC52105D33D00449E8D /* OODiscoveryOptions.h */; };
-		0D0C40622105D33E00449E8D /* OOPerformanceNotificationNameStateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC62105D33D00449E8D /* OOPerformanceNotificationNameStateMatcher.h */; };
-		0D0C40632105D33E00449E8D /* OOPerformanceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC72105D33D00449E8D /* OOPerformanceMonitor.h */; };
-		0D0C40642105D33E00449E8D /* OOFullScreenControlsBottomBarVolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC82105D33D00449E8D /* OOFullScreenControlsBottomBarVolumeView.h */; };
-		0D0C40652105D33E00449E8D /* OOFCCTVRatingVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FC92105D33D00449E8D /* OOFCCTVRatingVideoView.h */; };
-		0D0C40662105D33E00449E8D /* OOInlineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FCA2105D33D00449E8D /* OOInlineViewController.h */; };
-		0D0C40672105D33E00449E8D /* OOOoyalaAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FCB2105D33D00449E8D /* OOOoyalaAdSpot.h */; };
-		0D0C40682105D33E00449E8D /* OOContentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FCC2105D33D00449E8D /* OOContentItem.h */; };
-		0D0C40692105D33E00449E8D /* OOAdSpotPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FCD2105D33D00449E8D /* OOAdSpotPlugin.h */; };
-		0D0C406A2105D33E00449E8D /* OOUIProgressSliderIOS7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FCE2105D33D00449E8D /* OOUIProgressSliderIOS7.h */; };
-		0D0C406B2105D33E00449E8D /* OOVASTNonLinearAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FCF2105D33D00449E8D /* OOVASTNonLinearAds.h */; };
-		0D0C406C2105D33E00449E8D /* OOPerformanceEventWatchFileSpaceProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD02105D33D00449E8D /* OOPerformanceEventWatchFileSpaceProfiling.h */; };
-		0D0C406D2105D33E00449E8D /* OOAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD12105D33D00449E8D /* OOAudioTrack.h */; };
-		0D0C406E2105D33E00449E8D /* OOClosedCaptionsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD22105D33D00449E8D /* OOClosedCaptionsView.h */; };
-		0D0C406F2105D33E00449E8D /* OOManagedAdsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD32105D33D00449E8D /* OOManagedAdsPlugin.h */; };
-		0D0C40702105D33E00449E8D /* OOClosedCaptionsSelectorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD42105D33D00449E8D /* OOClosedCaptionsSelectorViewController.h */; };
-		0D0C40712105D33E00449E8D /* OOClosedCaptionsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD52105D33D00449E8D /* OOClosedCaptionsItem.h */; };
-		0D0C40722105D33E00449E8D /* OOBufferView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD62105D33D00449E8D /* OOBufferView.h */; };
-		0D0C40732105D33E00449E8D /* OOFullScreenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD72105D33D00449E8D /* OOFullScreenViewController.h */; };
-		0D0C40742105D33F00449E8D /* OOScalableImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD82105D33D00449E8D /* OOScalableImageButton.h */; };
-		0D0C40752105D33F00449E8D /* OOVASTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FD92105D33D00449E8D /* OOVASTUtils.h */; };
-		0D0C40762105D33F00449E8D /* ScrubberSliderFraming.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FDA2105D33D00449E8D /* ScrubberSliderFraming.h */; };
-		0D0C40772105D33F00449E8D /* OOAdsLearnMoreButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FDB2105D33D00449E8D /* OOAdsLearnMoreButton.h */; };
-		0D0C40782105D33F00449E8D /* OOOoyalaError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FDC2105D33D00449E8D /* OOOoyalaError.h */; };
-		0D0C40792105D33F00449E8D /* OOFullScreenControlsBottomBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FDD2105D33D00449E8D /* OOFullScreenControlsBottomBar.h */; };
-		0D0C407A2105D33F00449E8D /* OOSecureURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FDE2105D33D00449E8D /* OOSecureURLGenerator.h */; };
-		0D0C407B2105D33F00449E8D /* OOVASTResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FDF2105D33D00449E8D /* OOVASTResource.h */; };
-		0D0C407C2105D33F00449E8D /* OOInlineControlsBottomBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FE02105D33E00449E8D /* OOInlineControlsBottomBar.h */; };
-		0D0C407D2105D33F00449E8D /* OOModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FE12105D33E00449E8D /* OOModule.h */; };
-		0D0C407E2105D33F00449E8D /* OODiscoveryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FE22105D33E00449E8D /* OODiscoveryManager.h */; };
-		0D0C407F2105D33F00449E8D /* OOVASTAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FE32105D33E00449E8D /* OOVASTAdSpot.h */; };
-		0D0C40802105D33F00449E8D /* OOPlayableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C3FE42105D33E00449E8D /* OOPlayableItem.h */; };
-		418167A51FD7C82400B54849 /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418167A41FD7C82400B54849 /* OoyalaSDK.framework */; };
+		0D177DBE2105DA9000A0A20C /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D177DBD2105DA9000A0A20C /* OoyalaSDK.framework */; };
+		0D1781642105DC0D00A0A20C /* OOAdPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17802E2105DB7300A0A20C /* OOAdPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781652105DC0D00A0A20C /* OOTimeSliderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17802F2105DB7300A0A20C /* OOTimeSliderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781662105DC0D00A0A20C /* OOVASTVMAPAdHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780302105DB7300A0A20C /* OOVASTVMAPAdHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781672105DC0D00A0A20C /* OOAudioTrackSelectionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780312105DB7300A0A20C /* OOAudioTrackSelectionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781682105DC0D00A0A20C /* OODebugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780322105DB7300A0A20C /* OODebugMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781692105DC0D00A0A20C /* OOIQConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780332105DB7300A0A20C /* OOIQConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17816A2105DC0D00A0A20C /* OOVASTCompanionAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780342105DB7300A0A20C /* OOVASTCompanionAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17816B2105DC0D00A0A20C /* OOVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780352105DB7300A0A20C /* OOVASTAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17816C2105DC0D00A0A20C /* OOTimeSliderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780362105DB7300A0A20C /* OOTimeSliderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17816D2105DC0D00A0A20C /* OOFCCTVRatingStampView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780372105DB7300A0A20C /* OOFCCTVRatingStampView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17816E2105DC0D00A0A20C /* OOPlayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780382105DB7300A0A20C /* OOPlayerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17816F2105DC0D00A0A20C /* OOAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780392105DB7300A0A20C /* OOAdSpot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781702105DC0D00A0A20C /* OOUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17803A2105DB7300A0A20C /* OOUIUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781712105DC0D00A0A20C /* OOUnbundledVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17803B2105DB7300A0A20C /* OOUnbundledVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781722105DC0D00A0A20C /* OOPerformanceEventWatchCPUProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17803C2105DB7300A0A20C /* OOPerformanceEventWatchCPUProfiling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781732105DC0D00A0A20C /* OOPerformanceMonitorBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17803D2105DB7300A0A20C /* OOPerformanceMonitorBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781742105DC0D00A0A20C /* OONextButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17803E2105DB7300A0A20C /* OONextButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781752105DC0D00A0A20C /* OOOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17803F2105DB7300A0A20C /* OOOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781762105DC0D00A0A20C /* OOAssetLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780402105DB7300A0A20C /* OOAssetLoaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781772105DC0D00A0A20C /* OOVASTLinearAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780412105DB7300A0A20C /* OOVASTLinearAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781782105DC0D00A0A20C /* OOPerformanceMemoryProfilingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780422105DB7300A0A20C /* OOPerformanceMemoryProfilingStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781792105DC0D00A0A20C /* OOStreamPlayerMappingPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780432105DB7300A0A20C /* OOStreamPlayerMappingPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17817A2105DC0D00A0A20C /* OOSignatureGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780442105DB7300A0A20C /* OOSignatureGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17817B2105DC0E00A0A20C /* OOPerformanceFileSpaceProfilingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780452105DB7300A0A20C /* OOPerformanceFileSpaceProfilingStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17817C2105DC0E00A0A20C /* OOControlsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780462105DB7300A0A20C /* OOControlsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17817D2105DC0E00A0A20C /* OOStreamPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780472105DB7300A0A20C /* OOStreamPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17817E2105DC0E00A0A20C /* OOPerformanceEventMatcherProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780482105DB7300A0A20C /* OOPerformanceEventMatcherProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17817F2105DC0E00A0A20C /* OOPerformanceEventWatchStartEnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780492105DB7300A0A20C /* OOPerformanceEventWatchStartEnd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781802105DC0E00A0A20C /* OOVideoGravityButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17804A2105DB7300A0A20C /* OOVideoGravityButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781812105DC0E00A0A20C /* OOVASTNonLinear.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17804B2105DB7300A0A20C /* OOVASTNonLinear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781822105DC0E00A0A20C /* OOPreviousButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17804C2105DB7300A0A20C /* OOPreviousButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781832105DC0E00A0A20C /* OOPlayerDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17804D2105DB7300A0A20C /* OOPlayerDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781842105DC0E00A0A20C /* OOOfflineVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17804E2105DB7300A0A20C /* OOOfflineVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781852105DC0E00A0A20C /* OOVolumeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17804F2105DB7300A0A20C /* OOVolumeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781862105DC0E00A0A20C /* OOClosedCaptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780502105DB7300A0A20C /* OOClosedCaptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781872105DC0E00A0A20C /* OOCastModeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780512105DB7300A0A20C /* OOCastModeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781882105DC0E00A0A20C /* OOStreamPlayerMappingCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780522105DB7300A0A20C /* OOStreamPlayerMappingCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781892105DC0E00A0A20C /* OOVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780532105DB7300A0A20C /* OOVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17818A2105DC0E00A0A20C /* OOFullScreenControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780542105DB7300A0A20C /* OOFullScreenControlsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17818B2105DC0E00A0A20C /* iOS7ScrubberSliderFraming.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780552105DB7300A0A20C /* iOS7ScrubberSliderFraming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17818C2105DC0E00A0A20C /* OOCastManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780562105DB7300A0A20C /* OOCastManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17818D2105DC0E00A0A20C /* OOAdOverlayInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780572105DB7300A0A20C /* OOAdOverlayInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17818E2105DC0E00A0A20C /* OOPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780582105DB7300A0A20C /* OOPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17818F2105DC0E00A0A20C /* OOAnalyticsPluginBaseImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780592105DB7300A0A20C /* OOAnalyticsPluginBaseImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781902105DC0E00A0A20C /* OOSeekInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17805A2105DB7300A0A20C /* OOSeekInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781912105DC0E00A0A20C /* OOLifeCycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17805B2105DB7300A0A20C /* OOLifeCycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781922105DC0E00A0A20C /* OOProgressSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17805C2105DB7300A0A20C /* OOProgressSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781932105DC0E00A0A20C /* OOClosedCaptionsSelectorBackgroundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17805D2105DB7300A0A20C /* OOClosedCaptionsSelectorBackgroundViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781942105DC0E00A0A20C /* OOAdPodInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17805E2105DB7300A0A20C /* OOAdPodInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781952105DC0E00A0A20C /* OOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17805F2105DB7300A0A20C /* OOStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781962105DC0E00A0A20C /* OOVolumeSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780602105DB7300A0A20C /* OOVolumeSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781972105DC0E00A0A20C /* OOFCCTVRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780612105DB7300A0A20C /* OOFCCTVRating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781982105DC0E00A0A20C /* OOMovingAverage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780622105DB7300A0A20C /* OOMovingAverage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781992105DC0E00A0A20C /* OOPerformanceStatisticsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780632105DB7300A0A20C /* OOPerformanceStatisticsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17819A2105DC0E00A0A20C /* OOEmbedTokenGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780642105DB7300A0A20C /* OOEmbedTokenGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17819B2105DC0E00A0A20C /* OOCaption.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780652105DB7300A0A20C /* OOCaption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17819C2105DC0E00A0A20C /* OODynamicChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780662105DB7300A0A20C /* OODynamicChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17819D2105DC0E00A0A20C /* OOClosedCaptionsLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780672105DB7300A0A20C /* OOClosedCaptionsLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17819E2105DC0E00A0A20C /* OOPerformanceNotificationNameMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780682105DB7300A0A20C /* OOPerformanceNotificationNameMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D17819F2105DC0E00A0A20C /* OOStateNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780692105DB7300A0A20C /* OOStateNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A02105DC0E00A0A20C /* OOVASTCompanion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17806A2105DB7300A0A20C /* OOVASTCompanion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A12105DC0E00A0A20C /* OOAnalyticsPluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17806B2105DB7300A0A20C /* OOAnalyticsPluginProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A22105DC0E00A0A20C /* OOFullScreenControlsBottomBarMainControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17806C2105DB7300A0A20C /* OOFullScreenControlsBottomBarMainControlsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A32105DC0E00A0A20C /* OOInlineControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17806D2105DB7300A0A20C /* OOInlineControlsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A42105DC0E00A0A20C /* OOTBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17806E2105DB7300A0A20C /* OOTBXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A52105DC0E00A0A20C /* OOAudioTrackProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17806F2105DB7300A0A20C /* OOAudioTrackProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A62105DC0E00A0A20C /* OOVolumeSliderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780702105DB7300A0A20C /* OOVolumeSliderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A72105DC0E00A0A20C /* OOAdSpotManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780712105DB7300A0A20C /* OOAdSpotManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A82105DC0E00A0A20C /* OOTransparentToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780722105DB7300A0A20C /* OOTransparentToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781A92105DC0E00A0A20C /* OOPerformanceEventWatchMemoryProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780732105DB7300A0A20C /* OOPerformanceEventWatchMemoryProfiling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781AA2105DC0E00A0A20C /* OOAssetDownloadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780742105DB7300A0A20C /* OOAssetDownloadStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781AB2105DC0E00A0A20C /* OOVolumeSliderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780752105DB7300A0A20C /* OOVolumeSliderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781AC2105DC0E00A0A20C /* OOPerformanceEventWatchProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780762105DB7300A0A20C /* OOPerformanceEventWatchProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781AD2105DC0E00A0A20C /* OOReturnState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780772105DB7300A0A20C /* OOReturnState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781AE2105DC0E00A0A20C /* OOUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780782105DB7300A0A20C /* OOUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781AF2105DC0E00A0A20C /* OOVASTVMAPAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780792105DB7300A0A20C /* OOVASTVMAPAdSpot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B02105DC0E00A0A20C /* OOFCCTVRatingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17807A2105DB7300A0A20C /* OOFCCTVRatingConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B12105DC0E00A0A20C /* OOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17807B2105DB7300A0A20C /* OOChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B22105DC0E00A0A20C /* OOClientId.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17807C2105DB7300A0A20C /* OOClientId.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B32105DC0E00A0A20C /* OOClosedCaptionsStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17807D2105DB7300A0A20C /* OOClosedCaptionsStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B42105DC0E00A0A20C /* OOCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17807E2105DB7300A0A20C /* OOCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B52105DC0E00A0A20C /* OOOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17807F2105DB7300A0A20C /* OOOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B62105DC0E00A0A20C /* OOEmbeddedSecureURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780802105DB7300A0A20C /* OOEmbeddedSecureURLGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B72105DC0E00A0A20C /* OODeliveryTypeConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780812105DB7300A0A20C /* OODeliveryTypeConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B82105DC0E00A0A20C /* OOOoyalaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780822105DB7300A0A20C /* OOOoyalaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781B92105DC0E00A0A20C /* OOFullscreenButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780832105DB7300A0A20C /* OOFullscreenButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781BA2105DC0E00A0A20C /* OOIQAnalyticsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780842105DB7300A0A20C /* OOIQAnalyticsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781BB2105DC0E00A0A20C /* OOImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780852105DB7300A0A20C /* OOImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781BC2105DC0E00A0A20C /* OOFairplayContentKeyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780862105DB7300A0A20C /* OOFairplayContentKeyDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781BD2105DC0E00A0A20C /* OOVASTOffset.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780872105DB7300A0A20C /* OOVASTOffset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781BE2105DC0E00A0A20C /* OOPerformanceCountingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780882105DB7300A0A20C /* OOPerformanceCountingStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781BF2105DC0E00A0A20C /* OOOoyalaSimpleTVPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780892105DB7300A0A20C /* OOOoyalaSimpleTVPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C02105DC0E00A0A20C /* OOPlayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17808A2105DB7300A0A20C /* OOPlayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C12105DC0E00A0A20C /* OOOoyalaAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17808B2105DB7300A0A20C /* OOOoyalaAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C22105DC0E00A0A20C /* OOPerformanceStartEndStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17808C2105DB7300A0A20C /* OOPerformanceStartEndStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C32105DC0E00A0A20C /* OOVASTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17808D2105DB7300A0A20C /* OOVASTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C42105DC0E00A0A20C /* OOPerformanceEventWatchCounting.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17808E2105DB7300A0A20C /* OOPerformanceEventWatchCounting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C52105DC0E00A0A20C /* OOChannelSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17808F2105DB7300A0A20C /* OOChannelSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C62105DC0E00A0A20C /* OOAirPlayButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780902105DB7300A0A20C /* OOAirPlayButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C72105DC0E00A0A20C /* OOCuePointsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780912105DB7300A0A20C /* OOCuePointsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C82105DC0E00A0A20C /* OOImagesIOS7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780922105DB7300A0A20C /* OOImagesIOS7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781C92105DC0E00A0A20C /* OODeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780932105DB7300A0A20C /* OODeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781CA2105DC0E00A0A20C /* OOAssetDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780942105DB7300A0A20C /* OOAssetDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781CB2105DC0E00A0A20C /* OOPerformanceCPUProfilingStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780952105DB7300A0A20C /* OOPerformanceCPUProfilingStatistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781CC2105DC0E00A0A20C /* OOAssetDownloadOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780962105DB7300A0A20C /* OOAssetDownloadOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781CD2105DC0E00A0A20C /* OOPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780972105DB7300A0A20C /* OOPlayPauseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781CE2105DC0E00A0A20C /* OOEmbeddedSignatureGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780982105DB7300A0A20C /* OOEmbeddedSignatureGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781CF2105DC0E00A0A20C /* OOControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780992105DB7300A0A20C /* OOControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D02105DC0E00A0A20C /* OOMultiAudioProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17809A2105DB7300A0A20C /* OOMultiAudioProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D12105DC0E00A0A20C /* OODefaultPlayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17809B2105DB7300A0A20C /* OODefaultPlayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D22105DC0E00A0A20C /* OOPaginatedParentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17809C2105DB7300A0A20C /* OOPaginatedParentItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D32105DC0E00A0A20C /* OOControlsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17809D2105DB7300A0A20C /* OOControlsDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D42105DC0E00A0A20C /* OOFullScreenControlsTopBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17809E2105DB7300A0A20C /* OOFullScreenControlsTopBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D52105DC0E00A0A20C /* OOClosedCaptionsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D17809F2105DB7300A0A20C /* OOClosedCaptionsButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D62105DC0E00A0A20C /* OOAuthorizableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A02105DB7300A0A20C /* OOAuthorizableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D72105DC0E00A0A20C /* OOPerformanceStatisticsSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A12105DB7300A0A20C /* OOPerformanceStatisticsSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D82105DC0E00A0A20C /* OOAdPluginManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A22105DB7300A0A20C /* OOAdPluginManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781D92105DC0E00A0A20C /* OOOoyalaPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A32105DB7300A0A20C /* OOOoyalaPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781DA2105DC0E00A0A20C /* OOJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A42105DB7300A0A20C /* OOJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781DB2105DC0E00A0A20C /* OOVASTStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A52105DB7300A0A20C /* OOVASTStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781DC2105DC0E00A0A20C /* OOVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A62105DB7300A0A20C /* OOVASTCreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781DD2105DC0E00A0A20C /* OOManagedAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A72105DB7300A0A20C /* OOManagedAdSpot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781DE2105DC0E00A0A20C /* OOVASTIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A82105DB7300A0A20C /* OOVASTIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781DF2105DC0E00A0A20C /* OoyalaSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780A92105DB7300A0A20C /* OoyalaSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E02105DC0E00A0A20C /* OODiscoveryOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780AA2105DB7300A0A20C /* OODiscoveryOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E12105DC0E00A0A20C /* OOPerformanceNotificationNameStateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780AB2105DB7300A0A20C /* OOPerformanceNotificationNameStateMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E22105DC0E00A0A20C /* OOPerformanceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780AC2105DB7300A0A20C /* OOPerformanceMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E32105DC0E00A0A20C /* OOFullScreenControlsBottomBarVolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780AD2105DB7300A0A20C /* OOFullScreenControlsBottomBarVolumeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E42105DC0E00A0A20C /* OOFCCTVRatingVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780AE2105DB7300A0A20C /* OOFCCTVRatingVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E52105DC0E00A0A20C /* OOInlineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780AF2105DB7300A0A20C /* OOInlineViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E62105DC0E00A0A20C /* OOOoyalaAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B02105DB7300A0A20C /* OOOoyalaAdSpot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E72105DC0E00A0A20C /* OOContentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B12105DB7300A0A20C /* OOContentItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E82105DC0E00A0A20C /* OOAdSpotPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B22105DB7300A0A20C /* OOAdSpotPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781E92105DC0E00A0A20C /* OOVASTNonLinearAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B32105DB7300A0A20C /* OOVASTNonLinearAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781EA2105DC0E00A0A20C /* OOPerformanceEventWatchFileSpaceProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B42105DB7300A0A20C /* OOPerformanceEventWatchFileSpaceProfiling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781EB2105DC0E00A0A20C /* OOAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B52105DB7300A0A20C /* OOAudioTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781EC2105DC0E00A0A20C /* OOClosedCaptionsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B62105DB7300A0A20C /* OOClosedCaptionsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781ED2105DC0E00A0A20C /* OOManagedAdsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B72105DB7300A0A20C /* OOManagedAdsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781EE2105DC0E00A0A20C /* OOClosedCaptionsSelectorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B82105DB7300A0A20C /* OOClosedCaptionsSelectorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781EF2105DC0E00A0A20C /* OOClosedCaptionsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780B92105DB7300A0A20C /* OOClosedCaptionsItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F02105DC0E00A0A20C /* OOBufferView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780BA2105DB7300A0A20C /* OOBufferView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F12105DC0E00A0A20C /* OOFullScreenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780BB2105DB7300A0A20C /* OOFullScreenViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F22105DC0E00A0A20C /* OOScalableImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780BC2105DB7300A0A20C /* OOScalableImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F32105DC0E00A0A20C /* OOVASTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780BD2105DB7300A0A20C /* OOVASTUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F42105DC0E00A0A20C /* ScrubberSliderFraming.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780BE2105DB7300A0A20C /* ScrubberSliderFraming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F52105DC0E00A0A20C /* OOAdsLearnMoreButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780BF2105DB7300A0A20C /* OOAdsLearnMoreButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F62105DC0E00A0A20C /* OOOoyalaError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C02105DB7300A0A20C /* OOOoyalaError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F72105DC0E00A0A20C /* OOFullScreenControlsBottomBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C12105DB7300A0A20C /* OOFullScreenControlsBottomBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F82105DC0E00A0A20C /* OOSecureURLGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C22105DB7300A0A20C /* OOSecureURLGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781F92105DC0E00A0A20C /* OOVASTResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C32105DB7300A0A20C /* OOVASTResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781FA2105DC0E00A0A20C /* OOInlineControlsBottomBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C42105DB7300A0A20C /* OOInlineControlsBottomBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781FB2105DC0E00A0A20C /* OOModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C52105DB7300A0A20C /* OOModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781FC2105DC0E00A0A20C /* OODiscoveryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C62105DB7300A0A20C /* OODiscoveryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781FD2105DC0E00A0A20C /* OOVASTAdSpot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C72105DB7300A0A20C /* OOVASTAdSpot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1781FE2105DC0E00A0A20C /* OOPlayableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1780C82105DB7300A0A20C /* OOPlayableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41EE65671F4599F200930274 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE65571F4599F200930274 /* AVKit.framework */; };
 		41EE65681F4599F200930274 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE65581F4599F200930274 /* CFNetwork.framework */; };
 		41EE65691F4599F200930274 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE65591F4599F200930274 /* CoreGraphics.framework */; };
@@ -184,163 +183,162 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D0C3F492105D33D00449E8D /* OOAdPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPlugin.h; sourceTree = "<group>"; };
-		0D0C3F4A2105D33D00449E8D /* OOTimeSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTimeSliderDelegate.h; sourceTree = "<group>"; };
-		0D0C3F4B2105D33D00449E8D /* OOVASTVMAPAdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTVMAPAdHelper.h; sourceTree = "<group>"; };
-		0D0C3F4C2105D33D00449E8D /* OOAudioTrackSelectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAudioTrackSelectionProtocol.h; sourceTree = "<group>"; };
-		0D0C3F4D2105D33D00449E8D /* OODebugMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODebugMode.h; sourceTree = "<group>"; };
-		0D0C3F4E2105D33D00449E8D /* OOIQConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOIQConfiguration.h; sourceTree = "<group>"; };
-		0D0C3F4F2105D33D00449E8D /* OOVASTCompanionAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTCompanionAds.h; sourceTree = "<group>"; };
-		0D0C3F502105D33D00449E8D /* OOVASTAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTAd.h; sourceTree = "<group>"; };
-		0D0C3F512105D33D00449E8D /* OOTimeSliderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTimeSliderProtocol.h; sourceTree = "<group>"; };
-		0D0C3F522105D33D00449E8D /* OOFCCTVRatingStampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRatingStampView.h; sourceTree = "<group>"; };
-		0D0C3F532105D33D00449E8D /* OOPlayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerProtocol.h; sourceTree = "<group>"; };
-		0D0C3F542105D33D00449E8D /* OOAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpot.h; sourceTree = "<group>"; };
-		0D0C3F552105D33D00449E8D /* OOUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUIUtils.h; sourceTree = "<group>"; };
-		0D0C3F562105D33D00449E8D /* OOUnbundledVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUnbundledVideo.h; sourceTree = "<group>"; };
-		0D0C3F572105D33D00449E8D /* OOPerformanceEventWatchCPUProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchCPUProfiling.h; sourceTree = "<group>"; };
-		0D0C3F582105D33D00449E8D /* OOPerformanceMonitorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceMonitorBuilder.h; sourceTree = "<group>"; };
-		0D0C3F592105D33D00449E8D /* OONextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OONextButton.h; sourceTree = "<group>"; };
-		0D0C3F5A2105D33D00449E8D /* OOOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOptions.h; sourceTree = "<group>"; };
-		0D0C3F5B2105D33D00449E8D /* OOAssetLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetLoaderDelegate.h; sourceTree = "<group>"; };
-		0D0C3F5C2105D33D00449E8D /* OOVASTLinearAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTLinearAd.h; sourceTree = "<group>"; };
-		0D0C3F5D2105D33D00449E8D /* OOPerformanceMemoryProfilingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceMemoryProfilingStatistics.h; sourceTree = "<group>"; };
-		0D0C3F5E2105D33D00449E8D /* OOStreamPlayerMappingPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStreamPlayerMappingPredicate.h; sourceTree = "<group>"; };
-		0D0C3F5F2105D33D00449E8D /* OOSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSignatureGenerator.h; sourceTree = "<group>"; };
-		0D0C3F602105D33D00449E8D /* OOPerformanceFileSpaceProfilingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceFileSpaceProfilingStatistics.h; sourceTree = "<group>"; };
-		0D0C3F612105D33D00449E8D /* OOControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOControlsViewController.h; sourceTree = "<group>"; };
-		0D0C3F622105D33D00449E8D /* OOStreamPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStreamPlayer.h; sourceTree = "<group>"; };
-		0D0C3F632105D33D00449E8D /* OOPerformanceEventMatcherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventMatcherProtocol.h; sourceTree = "<group>"; };
-		0D0C3F642105D33D00449E8D /* OOPerformanceEventWatchStartEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchStartEnd.h; sourceTree = "<group>"; };
-		0D0C3F652105D33D00449E8D /* OOVideoGravityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVideoGravityButton.h; sourceTree = "<group>"; };
-		0D0C3F662105D33D00449E8D /* OOVASTNonLinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTNonLinear.h; sourceTree = "<group>"; };
-		0D0C3F672105D33D00449E8D /* OOPreviousButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPreviousButton.h; sourceTree = "<group>"; };
-		0D0C3F682105D33D00449E8D /* OOPlayerDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerDomain.h; sourceTree = "<group>"; };
-		0D0C3F692105D33D00449E8D /* OOOfflineVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOfflineVideo.h; sourceTree = "<group>"; };
-		0D0C3F6A2105D33D00449E8D /* OOVolumeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeButton.h; sourceTree = "<group>"; };
-		0D0C3F6B2105D33D00449E8D /* OOClosedCaptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptions.h; sourceTree = "<group>"; };
-		0D0C3F6C2105D33D00449E8D /* OOCastModeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCastModeOptions.h; sourceTree = "<group>"; };
-		0D0C3F6D2105D33D00449E8D /* OOStreamPlayerMappingCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStreamPlayerMappingCreator.h; sourceTree = "<group>"; };
-		0D0C3F6E2105D33D00449E8D /* OOVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVideo.h; sourceTree = "<group>"; };
-		0D0C3F6F2105D33D00449E8D /* OOFullScreenControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsView.h; sourceTree = "<group>"; };
-		0D0C3F702105D33D00449E8D /* iOS7ScrubberSliderFraming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS7ScrubberSliderFraming.h; sourceTree = "<group>"; };
-		0D0C3F712105D33D00449E8D /* OOCastManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCastManagerProtocol.h; sourceTree = "<group>"; };
-		0D0C3F722105D33D00449E8D /* OOAdOverlayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdOverlayInfo.h; sourceTree = "<group>"; };
-		0D0C3F732105D33D00449E8D /* OOPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayer.h; sourceTree = "<group>"; };
-		0D0C3F742105D33D00449E8D /* OOAnalyticsPluginBaseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAnalyticsPluginBaseImpl.h; sourceTree = "<group>"; };
-		0D0C3F752105D33D00449E8D /* OOSeekInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSeekInfo.h; sourceTree = "<group>"; };
-		0D0C3F762105D33D00449E8D /* OOLifeCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOLifeCycle.h; sourceTree = "<group>"; };
-		0D0C3F772105D33D00449E8D /* OOProgressSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOProgressSliderView.h; sourceTree = "<group>"; };
-		0D0C3F782105D33D00449E8D /* OOClosedCaptionsSelectorBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsSelectorBackgroundViewController.h; sourceTree = "<group>"; };
-		0D0C3F792105D33D00449E8D /* OOAdPodInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPodInfo.h; sourceTree = "<group>"; };
-		0D0C3F7A2105D33D00449E8D /* OOStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStream.h; sourceTree = "<group>"; };
-		0D0C3F7B2105D33D00449E8D /* OOVolumeSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeSliderView.h; sourceTree = "<group>"; };
-		0D0C3F7C2105D33D00449E8D /* OOFCCTVRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRating.h; sourceTree = "<group>"; };
-		0D0C3F7D2105D33D00449E8D /* OOMovingAverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOMovingAverage.h; sourceTree = "<group>"; };
-		0D0C3F7E2105D33D00449E8D /* OOPerformanceStatisticsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceStatisticsProtocol.h; sourceTree = "<group>"; };
-		0D0C3F7F2105D33D00449E8D /* OOEmbedTokenGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbedTokenGenerator.h; sourceTree = "<group>"; };
-		0D0C3F802105D33D00449E8D /* OOCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCaption.h; sourceTree = "<group>"; };
-		0D0C3F812105D33D00449E8D /* OODynamicChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODynamicChannel.h; sourceTree = "<group>"; };
-		0D0C3F822105D33D00449E8D /* OOClosedCaptionsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsLabel.h; sourceTree = "<group>"; };
-		0D0C3F832105D33D00449E8D /* OOPerformanceNotificationNameMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceNotificationNameMatcher.h; sourceTree = "<group>"; };
-		0D0C3F842105D33D00449E8D /* OOStateNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStateNotifier.h; sourceTree = "<group>"; };
-		0D0C3F852105D33D00449E8D /* OOVASTCompanion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTCompanion.h; sourceTree = "<group>"; };
-		0D0C3F862105D33D00449E8D /* OOAnalyticsPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAnalyticsPluginProtocol.h; sourceTree = "<group>"; };
-		0D0C3F872105D33D00449E8D /* OOFullScreenControlsBottomBarMainControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsBottomBarMainControlsView.h; sourceTree = "<group>"; };
-		0D0C3F882105D33D00449E8D /* OOInlineControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOInlineControlsView.h; sourceTree = "<group>"; };
-		0D0C3F892105D33D00449E8D /* OOTBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTBXML.h; sourceTree = "<group>"; };
-		0D0C3F8A2105D33D00449E8D /* OOAudioTrackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAudioTrackProtocol.h; sourceTree = "<group>"; };
-		0D0C3F8B2105D33D00449E8D /* OOVolumeSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeSliderDelegate.h; sourceTree = "<group>"; };
-		0D0C3F8C2105D33D00449E8D /* OOAdSpotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpotManager.h; sourceTree = "<group>"; };
-		0D0C3F8D2105D33D00449E8D /* OOTransparentToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTransparentToolbar.h; sourceTree = "<group>"; };
-		0D0C3F8E2105D33D00449E8D /* OOPerformanceEventWatchMemoryProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchMemoryProfiling.h; sourceTree = "<group>"; };
-		0D0C3F8F2105D33D00449E8D /* OOAssetDownloadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetDownloadStream.h; sourceTree = "<group>"; };
-		0D0C3F902105D33D00449E8D /* OOVolumeSliderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeSliderProtocol.h; sourceTree = "<group>"; };
-		0D0C3F912105D33D00449E8D /* OOPerformanceEventWatchProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchProtocol.h; sourceTree = "<group>"; };
-		0D0C3F922105D33D00449E8D /* OOReturnState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOReturnState.h; sourceTree = "<group>"; };
-		0D0C3F932105D33D00449E8D /* OOUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUserInfo.h; sourceTree = "<group>"; };
-		0D0C3F942105D33D00449E8D /* OOVASTVMAPAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTVMAPAdSpot.h; sourceTree = "<group>"; };
-		0D0C3F952105D33D00449E8D /* OOFCCTVRatingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRatingConfiguration.h; sourceTree = "<group>"; };
-		0D0C3F962105D33D00449E8D /* OOChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOChannel.h; sourceTree = "<group>"; };
-		0D0C3F972105D33D00449E8D /* OOClientId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClientId.h; sourceTree = "<group>"; };
-		0D0C3F982105D33D00449E8D /* OOClosedCaptionsStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsStyle.h; sourceTree = "<group>"; };
-		0D0C3F992105D33D00449E8D /* OOCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCallbacks.h; sourceTree = "<group>"; };
-		0D0C3F9A2105D33D00449E8D /* OOOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOrderedDictionary.h; sourceTree = "<group>"; };
-		0D0C3F9B2105D33D00449E8D /* OOEmbeddedSecureURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbeddedSecureURLGenerator.h; sourceTree = "<group>"; };
-		0D0C3F9C2105D33D00449E8D /* OODeliveryTypeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODeliveryTypeConstants.h; sourceTree = "<group>"; };
-		0D0C3F9D2105D33D00449E8D /* OOOoyalaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaPlayer.h; sourceTree = "<group>"; };
-		0D0C3F9E2105D33D00449E8D /* OOFullscreenButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullscreenButton.h; sourceTree = "<group>"; };
-		0D0C3F9F2105D33D00449E8D /* OOIQAnalyticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOIQAnalyticsPlugin.h; sourceTree = "<group>"; };
-		0D0C3FA02105D33D00449E8D /* OOImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOImages.h; sourceTree = "<group>"; };
-		0D0C3FA12105D33D00449E8D /* OOFairplayContentKeyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFairplayContentKeyDelegate.h; sourceTree = "<group>"; };
-		0D0C3FA22105D33D00449E8D /* OOVASTOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTOffset.h; sourceTree = "<group>"; };
-		0D0C3FA32105D33D00449E8D /* OOPerformanceCountingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceCountingStatistics.h; sourceTree = "<group>"; };
-		0D0C3FA42105D33D00449E8D /* OOOoyalaSimpleTVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaSimpleTVPlayerViewController.h; sourceTree = "<group>"; };
-		0D0C3FA52105D33D00449E8D /* OOPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerInfo.h; sourceTree = "<group>"; };
-		0D0C3FA62105D33D00449E8D /* OOOoyalaAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaAPIClient.h; sourceTree = "<group>"; };
-		0D0C3FA72105D33D00449E8D /* OOPerformanceStartEndStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceStartEndStatistics.h; sourceTree = "<group>"; };
-		0D0C3FA82105D33D00449E8D /* OOVASTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTConstants.h; sourceTree = "<group>"; };
-		0D0C3FA92105D33D00449E8D /* OOPerformanceEventWatchCounting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchCounting.h; sourceTree = "<group>"; };
-		0D0C3FAA2105D33D00449E8D /* OOChannelSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOChannelSet.h; sourceTree = "<group>"; };
-		0D0C3FAB2105D33D00449E8D /* OOAirPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAirPlayButton.h; sourceTree = "<group>"; };
-		0D0C3FAC2105D33D00449E8D /* OOCuePointsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCuePointsView.h; sourceTree = "<group>"; };
-		0D0C3FAD2105D33D00449E8D /* OOImagesIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOImagesIOS7.h; sourceTree = "<group>"; };
-		0D0C3FAE2105D33D00449E8D /* OODeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODeviceInfo.h; sourceTree = "<group>"; };
-		0D0C3FAF2105D33D00449E8D /* OOAssetDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetDownloadManager.h; sourceTree = "<group>"; };
-		0D0C3FB02105D33D00449E8D /* OOPerformanceCPUProfilingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceCPUProfilingStatistics.h; sourceTree = "<group>"; };
-		0D0C3FB12105D33D00449E8D /* OOAssetDownloadOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetDownloadOptions.h; sourceTree = "<group>"; };
-		0D0C3FB22105D33D00449E8D /* OOPlayPauseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayPauseButton.h; sourceTree = "<group>"; };
-		0D0C3FB32105D33D00449E8D /* OOEmbeddedSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbeddedSignatureGenerator.h; sourceTree = "<group>"; };
-		0D0C3FB42105D33D00449E8D /* OOControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOControls.h; sourceTree = "<group>"; };
-		0D0C3FB52105D33D00449E8D /* OOMultiAudioProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOMultiAudioProtocol.h; sourceTree = "<group>"; };
-		0D0C3FB62105D33D00449E8D /* OODefaultPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODefaultPlayerInfo.h; sourceTree = "<group>"; };
-		0D0C3FB72105D33D00449E8D /* OOPaginatedParentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPaginatedParentItem.h; sourceTree = "<group>"; };
-		0D0C3FB82105D33D00449E8D /* OOControlsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOControlsDelegate.h; sourceTree = "<group>"; };
-		0D0C3FB92105D33D00449E8D /* OOFullScreenControlsTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsTopBar.h; sourceTree = "<group>"; };
-		0D0C3FBA2105D33D00449E8D /* OOClosedCaptionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsButton.h; sourceTree = "<group>"; };
-		0D0C3FBB2105D33D00449E8D /* OOAuthorizableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAuthorizableItem.h; sourceTree = "<group>"; };
-		0D0C3FBC2105D33D00449E8D /* OOPerformanceStatisticsSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceStatisticsSnapshot.h; sourceTree = "<group>"; };
-		0D0C3FBD2105D33D00449E8D /* OOAdPluginManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPluginManagerProtocol.h; sourceTree = "<group>"; };
-		0D0C3FBE2105D33D00449E8D /* OOOoyalaPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaPlayerViewController.h; sourceTree = "<group>"; };
-		0D0C3FBF2105D33D00449E8D /* OOJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOJSONKit.h; sourceTree = "<group>"; };
-		0D0C3FC02105D33D00449E8D /* OOVASTStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTStream.h; sourceTree = "<group>"; };
-		0D0C3FC12105D33D00449E8D /* OOVASTCreative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTCreative.h; sourceTree = "<group>"; };
-		0D0C3FC22105D33D00449E8D /* OOManagedAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOManagedAdSpot.h; sourceTree = "<group>"; };
-		0D0C3FC32105D33D00449E8D /* OOVASTIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTIcon.h; sourceTree = "<group>"; };
-		0D0C3FC42105D33D00449E8D /* OoyalaSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OoyalaSDK.h; sourceTree = "<group>"; };
-		0D0C3FC52105D33D00449E8D /* OODiscoveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODiscoveryOptions.h; sourceTree = "<group>"; };
-		0D0C3FC62105D33D00449E8D /* OOPerformanceNotificationNameStateMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceNotificationNameStateMatcher.h; sourceTree = "<group>"; };
-		0D0C3FC72105D33D00449E8D /* OOPerformanceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceMonitor.h; sourceTree = "<group>"; };
-		0D0C3FC82105D33D00449E8D /* OOFullScreenControlsBottomBarVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsBottomBarVolumeView.h; sourceTree = "<group>"; };
-		0D0C3FC92105D33D00449E8D /* OOFCCTVRatingVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRatingVideoView.h; sourceTree = "<group>"; };
-		0D0C3FCA2105D33D00449E8D /* OOInlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOInlineViewController.h; sourceTree = "<group>"; };
-		0D0C3FCB2105D33D00449E8D /* OOOoyalaAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaAdSpot.h; sourceTree = "<group>"; };
-		0D0C3FCC2105D33D00449E8D /* OOContentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOContentItem.h; sourceTree = "<group>"; };
-		0D0C3FCD2105D33D00449E8D /* OOAdSpotPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpotPlugin.h; sourceTree = "<group>"; };
-		0D0C3FCE2105D33D00449E8D /* OOUIProgressSliderIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUIProgressSliderIOS7.h; sourceTree = "<group>"; };
-		0D0C3FCF2105D33D00449E8D /* OOVASTNonLinearAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTNonLinearAds.h; sourceTree = "<group>"; };
-		0D0C3FD02105D33D00449E8D /* OOPerformanceEventWatchFileSpaceProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchFileSpaceProfiling.h; sourceTree = "<group>"; };
-		0D0C3FD12105D33D00449E8D /* OOAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAudioTrack.h; sourceTree = "<group>"; };
-		0D0C3FD22105D33D00449E8D /* OOClosedCaptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsView.h; sourceTree = "<group>"; };
-		0D0C3FD32105D33D00449E8D /* OOManagedAdsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOManagedAdsPlugin.h; sourceTree = "<group>"; };
-		0D0C3FD42105D33D00449E8D /* OOClosedCaptionsSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsSelectorViewController.h; sourceTree = "<group>"; };
-		0D0C3FD52105D33D00449E8D /* OOClosedCaptionsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsItem.h; sourceTree = "<group>"; };
-		0D0C3FD62105D33D00449E8D /* OOBufferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOBufferView.h; sourceTree = "<group>"; };
-		0D0C3FD72105D33D00449E8D /* OOFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenViewController.h; sourceTree = "<group>"; };
-		0D0C3FD82105D33D00449E8D /* OOScalableImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOScalableImageButton.h; sourceTree = "<group>"; };
-		0D0C3FD92105D33D00449E8D /* OOVASTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTUtils.h; sourceTree = "<group>"; };
-		0D0C3FDA2105D33D00449E8D /* ScrubberSliderFraming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrubberSliderFraming.h; sourceTree = "<group>"; };
-		0D0C3FDB2105D33D00449E8D /* OOAdsLearnMoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdsLearnMoreButton.h; sourceTree = "<group>"; };
-		0D0C3FDC2105D33D00449E8D /* OOOoyalaError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaError.h; sourceTree = "<group>"; };
-		0D0C3FDD2105D33D00449E8D /* OOFullScreenControlsBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsBottomBar.h; sourceTree = "<group>"; };
-		0D0C3FDE2105D33D00449E8D /* OOSecureURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSecureURLGenerator.h; sourceTree = "<group>"; };
-		0D0C3FDF2105D33D00449E8D /* OOVASTResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTResource.h; sourceTree = "<group>"; };
-		0D0C3FE02105D33E00449E8D /* OOInlineControlsBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOInlineControlsBottomBar.h; sourceTree = "<group>"; };
-		0D0C3FE12105D33E00449E8D /* OOModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOModule.h; sourceTree = "<group>"; };
-		0D0C3FE22105D33E00449E8D /* OODiscoveryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODiscoveryManager.h; sourceTree = "<group>"; };
-		0D0C3FE32105D33E00449E8D /* OOVASTAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTAdSpot.h; sourceTree = "<group>"; };
-		0D0C3FE42105D33E00449E8D /* OOPlayableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayableItem.h; sourceTree = "<group>"; };
-		418167A41FD7C82400B54849 /* OoyalaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OoyalaSDK.framework; path = Wrapped/OoyalaSDK.framework; sourceTree = "<group>"; };
+		0D177DBD2105DA9000A0A20C /* OoyalaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OoyalaSDK.framework; path = Wrapped/OoyalaSDK.framework; sourceTree = "<group>"; };
+		0D17802E2105DB7300A0A20C /* OOAdPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPlugin.h; sourceTree = "<group>"; };
+		0D17802F2105DB7300A0A20C /* OOTimeSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTimeSliderDelegate.h; sourceTree = "<group>"; };
+		0D1780302105DB7300A0A20C /* OOVASTVMAPAdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTVMAPAdHelper.h; sourceTree = "<group>"; };
+		0D1780312105DB7300A0A20C /* OOAudioTrackSelectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAudioTrackSelectionProtocol.h; sourceTree = "<group>"; };
+		0D1780322105DB7300A0A20C /* OODebugMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODebugMode.h; sourceTree = "<group>"; };
+		0D1780332105DB7300A0A20C /* OOIQConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOIQConfiguration.h; sourceTree = "<group>"; };
+		0D1780342105DB7300A0A20C /* OOVASTCompanionAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTCompanionAds.h; sourceTree = "<group>"; };
+		0D1780352105DB7300A0A20C /* OOVASTAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTAd.h; sourceTree = "<group>"; };
+		0D1780362105DB7300A0A20C /* OOTimeSliderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTimeSliderProtocol.h; sourceTree = "<group>"; };
+		0D1780372105DB7300A0A20C /* OOFCCTVRatingStampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRatingStampView.h; sourceTree = "<group>"; };
+		0D1780382105DB7300A0A20C /* OOPlayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerProtocol.h; sourceTree = "<group>"; };
+		0D1780392105DB7300A0A20C /* OOAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpot.h; sourceTree = "<group>"; };
+		0D17803A2105DB7300A0A20C /* OOUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUIUtils.h; sourceTree = "<group>"; };
+		0D17803B2105DB7300A0A20C /* OOUnbundledVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUnbundledVideo.h; sourceTree = "<group>"; };
+		0D17803C2105DB7300A0A20C /* OOPerformanceEventWatchCPUProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchCPUProfiling.h; sourceTree = "<group>"; };
+		0D17803D2105DB7300A0A20C /* OOPerformanceMonitorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceMonitorBuilder.h; sourceTree = "<group>"; };
+		0D17803E2105DB7300A0A20C /* OONextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OONextButton.h; sourceTree = "<group>"; };
+		0D17803F2105DB7300A0A20C /* OOOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOptions.h; sourceTree = "<group>"; };
+		0D1780402105DB7300A0A20C /* OOAssetLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetLoaderDelegate.h; sourceTree = "<group>"; };
+		0D1780412105DB7300A0A20C /* OOVASTLinearAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTLinearAd.h; sourceTree = "<group>"; };
+		0D1780422105DB7300A0A20C /* OOPerformanceMemoryProfilingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceMemoryProfilingStatistics.h; sourceTree = "<group>"; };
+		0D1780432105DB7300A0A20C /* OOStreamPlayerMappingPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStreamPlayerMappingPredicate.h; sourceTree = "<group>"; };
+		0D1780442105DB7300A0A20C /* OOSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSignatureGenerator.h; sourceTree = "<group>"; };
+		0D1780452105DB7300A0A20C /* OOPerformanceFileSpaceProfilingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceFileSpaceProfilingStatistics.h; sourceTree = "<group>"; };
+		0D1780462105DB7300A0A20C /* OOControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOControlsViewController.h; sourceTree = "<group>"; };
+		0D1780472105DB7300A0A20C /* OOStreamPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStreamPlayer.h; sourceTree = "<group>"; };
+		0D1780482105DB7300A0A20C /* OOPerformanceEventMatcherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventMatcherProtocol.h; sourceTree = "<group>"; };
+		0D1780492105DB7300A0A20C /* OOPerformanceEventWatchStartEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchStartEnd.h; sourceTree = "<group>"; };
+		0D17804A2105DB7300A0A20C /* OOVideoGravityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVideoGravityButton.h; sourceTree = "<group>"; };
+		0D17804B2105DB7300A0A20C /* OOVASTNonLinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTNonLinear.h; sourceTree = "<group>"; };
+		0D17804C2105DB7300A0A20C /* OOPreviousButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPreviousButton.h; sourceTree = "<group>"; };
+		0D17804D2105DB7300A0A20C /* OOPlayerDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerDomain.h; sourceTree = "<group>"; };
+		0D17804E2105DB7300A0A20C /* OOOfflineVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOfflineVideo.h; sourceTree = "<group>"; };
+		0D17804F2105DB7300A0A20C /* OOVolumeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeButton.h; sourceTree = "<group>"; };
+		0D1780502105DB7300A0A20C /* OOClosedCaptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptions.h; sourceTree = "<group>"; };
+		0D1780512105DB7300A0A20C /* OOCastModeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCastModeOptions.h; sourceTree = "<group>"; };
+		0D1780522105DB7300A0A20C /* OOStreamPlayerMappingCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStreamPlayerMappingCreator.h; sourceTree = "<group>"; };
+		0D1780532105DB7300A0A20C /* OOVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVideo.h; sourceTree = "<group>"; };
+		0D1780542105DB7300A0A20C /* OOFullScreenControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsView.h; sourceTree = "<group>"; };
+		0D1780552105DB7300A0A20C /* iOS7ScrubberSliderFraming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS7ScrubberSliderFraming.h; sourceTree = "<group>"; };
+		0D1780562105DB7300A0A20C /* OOCastManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCastManagerProtocol.h; sourceTree = "<group>"; };
+		0D1780572105DB7300A0A20C /* OOAdOverlayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdOverlayInfo.h; sourceTree = "<group>"; };
+		0D1780582105DB7300A0A20C /* OOPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayer.h; sourceTree = "<group>"; };
+		0D1780592105DB7300A0A20C /* OOAnalyticsPluginBaseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAnalyticsPluginBaseImpl.h; sourceTree = "<group>"; };
+		0D17805A2105DB7300A0A20C /* OOSeekInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSeekInfo.h; sourceTree = "<group>"; };
+		0D17805B2105DB7300A0A20C /* OOLifeCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOLifeCycle.h; sourceTree = "<group>"; };
+		0D17805C2105DB7300A0A20C /* OOProgressSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOProgressSliderView.h; sourceTree = "<group>"; };
+		0D17805D2105DB7300A0A20C /* OOClosedCaptionsSelectorBackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsSelectorBackgroundViewController.h; sourceTree = "<group>"; };
+		0D17805E2105DB7300A0A20C /* OOAdPodInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPodInfo.h; sourceTree = "<group>"; };
+		0D17805F2105DB7300A0A20C /* OOStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStream.h; sourceTree = "<group>"; };
+		0D1780602105DB7300A0A20C /* OOVolumeSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeSliderView.h; sourceTree = "<group>"; };
+		0D1780612105DB7300A0A20C /* OOFCCTVRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRating.h; sourceTree = "<group>"; };
+		0D1780622105DB7300A0A20C /* OOMovingAverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOMovingAverage.h; sourceTree = "<group>"; };
+		0D1780632105DB7300A0A20C /* OOPerformanceStatisticsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceStatisticsProtocol.h; sourceTree = "<group>"; };
+		0D1780642105DB7300A0A20C /* OOEmbedTokenGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbedTokenGenerator.h; sourceTree = "<group>"; };
+		0D1780652105DB7300A0A20C /* OOCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCaption.h; sourceTree = "<group>"; };
+		0D1780662105DB7300A0A20C /* OODynamicChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODynamicChannel.h; sourceTree = "<group>"; };
+		0D1780672105DB7300A0A20C /* OOClosedCaptionsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsLabel.h; sourceTree = "<group>"; };
+		0D1780682105DB7300A0A20C /* OOPerformanceNotificationNameMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceNotificationNameMatcher.h; sourceTree = "<group>"; };
+		0D1780692105DB7300A0A20C /* OOStateNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOStateNotifier.h; sourceTree = "<group>"; };
+		0D17806A2105DB7300A0A20C /* OOVASTCompanion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTCompanion.h; sourceTree = "<group>"; };
+		0D17806B2105DB7300A0A20C /* OOAnalyticsPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAnalyticsPluginProtocol.h; sourceTree = "<group>"; };
+		0D17806C2105DB7300A0A20C /* OOFullScreenControlsBottomBarMainControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsBottomBarMainControlsView.h; sourceTree = "<group>"; };
+		0D17806D2105DB7300A0A20C /* OOInlineControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOInlineControlsView.h; sourceTree = "<group>"; };
+		0D17806E2105DB7300A0A20C /* OOTBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTBXML.h; sourceTree = "<group>"; };
+		0D17806F2105DB7300A0A20C /* OOAudioTrackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAudioTrackProtocol.h; sourceTree = "<group>"; };
+		0D1780702105DB7300A0A20C /* OOVolumeSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeSliderDelegate.h; sourceTree = "<group>"; };
+		0D1780712105DB7300A0A20C /* OOAdSpotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpotManager.h; sourceTree = "<group>"; };
+		0D1780722105DB7300A0A20C /* OOTransparentToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOTransparentToolbar.h; sourceTree = "<group>"; };
+		0D1780732105DB7300A0A20C /* OOPerformanceEventWatchMemoryProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchMemoryProfiling.h; sourceTree = "<group>"; };
+		0D1780742105DB7300A0A20C /* OOAssetDownloadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetDownloadStream.h; sourceTree = "<group>"; };
+		0D1780752105DB7300A0A20C /* OOVolumeSliderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVolumeSliderProtocol.h; sourceTree = "<group>"; };
+		0D1780762105DB7300A0A20C /* OOPerformanceEventWatchProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchProtocol.h; sourceTree = "<group>"; };
+		0D1780772105DB7300A0A20C /* OOReturnState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOReturnState.h; sourceTree = "<group>"; };
+		0D1780782105DB7300A0A20C /* OOUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOUserInfo.h; sourceTree = "<group>"; };
+		0D1780792105DB7300A0A20C /* OOVASTVMAPAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTVMAPAdSpot.h; sourceTree = "<group>"; };
+		0D17807A2105DB7300A0A20C /* OOFCCTVRatingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRatingConfiguration.h; sourceTree = "<group>"; };
+		0D17807B2105DB7300A0A20C /* OOChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOChannel.h; sourceTree = "<group>"; };
+		0D17807C2105DB7300A0A20C /* OOClientId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClientId.h; sourceTree = "<group>"; };
+		0D17807D2105DB7300A0A20C /* OOClosedCaptionsStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsStyle.h; sourceTree = "<group>"; };
+		0D17807E2105DB7300A0A20C /* OOCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCallbacks.h; sourceTree = "<group>"; };
+		0D17807F2105DB7300A0A20C /* OOOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOrderedDictionary.h; sourceTree = "<group>"; };
+		0D1780802105DB7300A0A20C /* OOEmbeddedSecureURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbeddedSecureURLGenerator.h; sourceTree = "<group>"; };
+		0D1780812105DB7300A0A20C /* OODeliveryTypeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODeliveryTypeConstants.h; sourceTree = "<group>"; };
+		0D1780822105DB7300A0A20C /* OOOoyalaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaPlayer.h; sourceTree = "<group>"; };
+		0D1780832105DB7300A0A20C /* OOFullscreenButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullscreenButton.h; sourceTree = "<group>"; };
+		0D1780842105DB7300A0A20C /* OOIQAnalyticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOIQAnalyticsPlugin.h; sourceTree = "<group>"; };
+		0D1780852105DB7300A0A20C /* OOImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOImages.h; sourceTree = "<group>"; };
+		0D1780862105DB7300A0A20C /* OOFairplayContentKeyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFairplayContentKeyDelegate.h; sourceTree = "<group>"; };
+		0D1780872105DB7300A0A20C /* OOVASTOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTOffset.h; sourceTree = "<group>"; };
+		0D1780882105DB7300A0A20C /* OOPerformanceCountingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceCountingStatistics.h; sourceTree = "<group>"; };
+		0D1780892105DB7300A0A20C /* OOOoyalaSimpleTVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaSimpleTVPlayerViewController.h; sourceTree = "<group>"; };
+		0D17808A2105DB7300A0A20C /* OOPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayerInfo.h; sourceTree = "<group>"; };
+		0D17808B2105DB7300A0A20C /* OOOoyalaAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaAPIClient.h; sourceTree = "<group>"; };
+		0D17808C2105DB7300A0A20C /* OOPerformanceStartEndStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceStartEndStatistics.h; sourceTree = "<group>"; };
+		0D17808D2105DB7300A0A20C /* OOVASTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTConstants.h; sourceTree = "<group>"; };
+		0D17808E2105DB7300A0A20C /* OOPerformanceEventWatchCounting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchCounting.h; sourceTree = "<group>"; };
+		0D17808F2105DB7300A0A20C /* OOChannelSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOChannelSet.h; sourceTree = "<group>"; };
+		0D1780902105DB7300A0A20C /* OOAirPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAirPlayButton.h; sourceTree = "<group>"; };
+		0D1780912105DB7300A0A20C /* OOCuePointsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOCuePointsView.h; sourceTree = "<group>"; };
+		0D1780922105DB7300A0A20C /* OOImagesIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOImagesIOS7.h; sourceTree = "<group>"; };
+		0D1780932105DB7300A0A20C /* OODeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODeviceInfo.h; sourceTree = "<group>"; };
+		0D1780942105DB7300A0A20C /* OOAssetDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetDownloadManager.h; sourceTree = "<group>"; };
+		0D1780952105DB7300A0A20C /* OOPerformanceCPUProfilingStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceCPUProfilingStatistics.h; sourceTree = "<group>"; };
+		0D1780962105DB7300A0A20C /* OOAssetDownloadOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAssetDownloadOptions.h; sourceTree = "<group>"; };
+		0D1780972105DB7300A0A20C /* OOPlayPauseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayPauseButton.h; sourceTree = "<group>"; };
+		0D1780982105DB7300A0A20C /* OOEmbeddedSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOEmbeddedSignatureGenerator.h; sourceTree = "<group>"; };
+		0D1780992105DB7300A0A20C /* OOControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOControls.h; sourceTree = "<group>"; };
+		0D17809A2105DB7300A0A20C /* OOMultiAudioProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOMultiAudioProtocol.h; sourceTree = "<group>"; };
+		0D17809B2105DB7300A0A20C /* OODefaultPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODefaultPlayerInfo.h; sourceTree = "<group>"; };
+		0D17809C2105DB7300A0A20C /* OOPaginatedParentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPaginatedParentItem.h; sourceTree = "<group>"; };
+		0D17809D2105DB7300A0A20C /* OOControlsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOControlsDelegate.h; sourceTree = "<group>"; };
+		0D17809E2105DB7300A0A20C /* OOFullScreenControlsTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsTopBar.h; sourceTree = "<group>"; };
+		0D17809F2105DB7300A0A20C /* OOClosedCaptionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsButton.h; sourceTree = "<group>"; };
+		0D1780A02105DB7300A0A20C /* OOAuthorizableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAuthorizableItem.h; sourceTree = "<group>"; };
+		0D1780A12105DB7300A0A20C /* OOPerformanceStatisticsSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceStatisticsSnapshot.h; sourceTree = "<group>"; };
+		0D1780A22105DB7300A0A20C /* OOAdPluginManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdPluginManagerProtocol.h; sourceTree = "<group>"; };
+		0D1780A32105DB7300A0A20C /* OOOoyalaPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaPlayerViewController.h; sourceTree = "<group>"; };
+		0D1780A42105DB7300A0A20C /* OOJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOJSONKit.h; sourceTree = "<group>"; };
+		0D1780A52105DB7300A0A20C /* OOVASTStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTStream.h; sourceTree = "<group>"; };
+		0D1780A62105DB7300A0A20C /* OOVASTCreative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTCreative.h; sourceTree = "<group>"; };
+		0D1780A72105DB7300A0A20C /* OOManagedAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOManagedAdSpot.h; sourceTree = "<group>"; };
+		0D1780A82105DB7300A0A20C /* OOVASTIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTIcon.h; sourceTree = "<group>"; };
+		0D1780A92105DB7300A0A20C /* OoyalaSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OoyalaSDK.h; sourceTree = "<group>"; };
+		0D1780AA2105DB7300A0A20C /* OODiscoveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODiscoveryOptions.h; sourceTree = "<group>"; };
+		0D1780AB2105DB7300A0A20C /* OOPerformanceNotificationNameStateMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceNotificationNameStateMatcher.h; sourceTree = "<group>"; };
+		0D1780AC2105DB7300A0A20C /* OOPerformanceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceMonitor.h; sourceTree = "<group>"; };
+		0D1780AD2105DB7300A0A20C /* OOFullScreenControlsBottomBarVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsBottomBarVolumeView.h; sourceTree = "<group>"; };
+		0D1780AE2105DB7300A0A20C /* OOFCCTVRatingVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFCCTVRatingVideoView.h; sourceTree = "<group>"; };
+		0D1780AF2105DB7300A0A20C /* OOInlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOInlineViewController.h; sourceTree = "<group>"; };
+		0D1780B02105DB7300A0A20C /* OOOoyalaAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaAdSpot.h; sourceTree = "<group>"; };
+		0D1780B12105DB7300A0A20C /* OOContentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOContentItem.h; sourceTree = "<group>"; };
+		0D1780B22105DB7300A0A20C /* OOAdSpotPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdSpotPlugin.h; sourceTree = "<group>"; };
+		0D1780B32105DB7300A0A20C /* OOVASTNonLinearAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTNonLinearAds.h; sourceTree = "<group>"; };
+		0D1780B42105DB7300A0A20C /* OOPerformanceEventWatchFileSpaceProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPerformanceEventWatchFileSpaceProfiling.h; sourceTree = "<group>"; };
+		0D1780B52105DB7300A0A20C /* OOAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAudioTrack.h; sourceTree = "<group>"; };
+		0D1780B62105DB7300A0A20C /* OOClosedCaptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsView.h; sourceTree = "<group>"; };
+		0D1780B72105DB7300A0A20C /* OOManagedAdsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOManagedAdsPlugin.h; sourceTree = "<group>"; };
+		0D1780B82105DB7300A0A20C /* OOClosedCaptionsSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsSelectorViewController.h; sourceTree = "<group>"; };
+		0D1780B92105DB7300A0A20C /* OOClosedCaptionsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOClosedCaptionsItem.h; sourceTree = "<group>"; };
+		0D1780BA2105DB7300A0A20C /* OOBufferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOBufferView.h; sourceTree = "<group>"; };
+		0D1780BB2105DB7300A0A20C /* OOFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenViewController.h; sourceTree = "<group>"; };
+		0D1780BC2105DB7300A0A20C /* OOScalableImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOScalableImageButton.h; sourceTree = "<group>"; };
+		0D1780BD2105DB7300A0A20C /* OOVASTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTUtils.h; sourceTree = "<group>"; };
+		0D1780BE2105DB7300A0A20C /* ScrubberSliderFraming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrubberSliderFraming.h; sourceTree = "<group>"; };
+		0D1780BF2105DB7300A0A20C /* OOAdsLearnMoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAdsLearnMoreButton.h; sourceTree = "<group>"; };
+		0D1780C02105DB7300A0A20C /* OOOoyalaError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOOoyalaError.h; sourceTree = "<group>"; };
+		0D1780C12105DB7300A0A20C /* OOFullScreenControlsBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOFullScreenControlsBottomBar.h; sourceTree = "<group>"; };
+		0D1780C22105DB7300A0A20C /* OOSecureURLGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOSecureURLGenerator.h; sourceTree = "<group>"; };
+		0D1780C32105DB7300A0A20C /* OOVASTResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTResource.h; sourceTree = "<group>"; };
+		0D1780C42105DB7300A0A20C /* OOInlineControlsBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOInlineControlsBottomBar.h; sourceTree = "<group>"; };
+		0D1780C52105DB7300A0A20C /* OOModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOModule.h; sourceTree = "<group>"; };
+		0D1780C62105DB7300A0A20C /* OODiscoveryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OODiscoveryManager.h; sourceTree = "<group>"; };
+		0D1780C72105DB7300A0A20C /* OOVASTAdSpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOVASTAdSpot.h; sourceTree = "<group>"; };
+		0D1780C82105DB7300A0A20C /* OOPlayableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOPlayableItem.h; sourceTree = "<group>"; };
 		41EE65481F45990800930274 /* DynamicOoyalaWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicOoyalaWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EE654C1F45990800930274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41EE65561F4599F200930274 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -369,7 +367,7 @@
 			files = (
 				41F2272D20501A2D00DB9FF3 /* AVFoundation.framework in Frameworks */,
 				41EE65771F459A0000930274 /* JavaScriptCore.framework in Frameworks */,
-				418167A51FD7C82400B54849 /* OoyalaSDK.framework in Frameworks */,
+				0D177DBE2105DA9000A0A20C /* OoyalaSDK.framework in Frameworks */,
 				41EE65671F4599F200930274 /* AVKit.framework in Frameworks */,
 				41EE65681F4599F200930274 /* CFNetwork.framework in Frameworks */,
 				41EE65691F4599F200930274 /* CoreGraphics.framework in Frameworks */,
@@ -391,165 +389,164 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D0C3F482105D33D00449E8D /* Headers */ = {
+		0D17802D2105DB7300A0A20C /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				0D0C3F492105D33D00449E8D /* OOAdPlugin.h */,
-				0D0C3F4A2105D33D00449E8D /* OOTimeSliderDelegate.h */,
-				0D0C3F4B2105D33D00449E8D /* OOVASTVMAPAdHelper.h */,
-				0D0C3F4C2105D33D00449E8D /* OOAudioTrackSelectionProtocol.h */,
-				0D0C3F4D2105D33D00449E8D /* OODebugMode.h */,
-				0D0C3F4E2105D33D00449E8D /* OOIQConfiguration.h */,
-				0D0C3F4F2105D33D00449E8D /* OOVASTCompanionAds.h */,
-				0D0C3F502105D33D00449E8D /* OOVASTAd.h */,
-				0D0C3F512105D33D00449E8D /* OOTimeSliderProtocol.h */,
-				0D0C3F522105D33D00449E8D /* OOFCCTVRatingStampView.h */,
-				0D0C3F532105D33D00449E8D /* OOPlayerProtocol.h */,
-				0D0C3F542105D33D00449E8D /* OOAdSpot.h */,
-				0D0C3F552105D33D00449E8D /* OOUIUtils.h */,
-				0D0C3F562105D33D00449E8D /* OOUnbundledVideo.h */,
-				0D0C3F572105D33D00449E8D /* OOPerformanceEventWatchCPUProfiling.h */,
-				0D0C3F582105D33D00449E8D /* OOPerformanceMonitorBuilder.h */,
-				0D0C3F592105D33D00449E8D /* OONextButton.h */,
-				0D0C3F5A2105D33D00449E8D /* OOOptions.h */,
-				0D0C3F5B2105D33D00449E8D /* OOAssetLoaderDelegate.h */,
-				0D0C3F5C2105D33D00449E8D /* OOVASTLinearAd.h */,
-				0D0C3F5D2105D33D00449E8D /* OOPerformanceMemoryProfilingStatistics.h */,
-				0D0C3F5E2105D33D00449E8D /* OOStreamPlayerMappingPredicate.h */,
-				0D0C3F5F2105D33D00449E8D /* OOSignatureGenerator.h */,
-				0D0C3F602105D33D00449E8D /* OOPerformanceFileSpaceProfilingStatistics.h */,
-				0D0C3F612105D33D00449E8D /* OOControlsViewController.h */,
-				0D0C3F622105D33D00449E8D /* OOStreamPlayer.h */,
-				0D0C3F632105D33D00449E8D /* OOPerformanceEventMatcherProtocol.h */,
-				0D0C3F642105D33D00449E8D /* OOPerformanceEventWatchStartEnd.h */,
-				0D0C3F652105D33D00449E8D /* OOVideoGravityButton.h */,
-				0D0C3F662105D33D00449E8D /* OOVASTNonLinear.h */,
-				0D0C3F672105D33D00449E8D /* OOPreviousButton.h */,
-				0D0C3F682105D33D00449E8D /* OOPlayerDomain.h */,
-				0D0C3F692105D33D00449E8D /* OOOfflineVideo.h */,
-				0D0C3F6A2105D33D00449E8D /* OOVolumeButton.h */,
-				0D0C3F6B2105D33D00449E8D /* OOClosedCaptions.h */,
-				0D0C3F6C2105D33D00449E8D /* OOCastModeOptions.h */,
-				0D0C3F6D2105D33D00449E8D /* OOStreamPlayerMappingCreator.h */,
-				0D0C3F6E2105D33D00449E8D /* OOVideo.h */,
-				0D0C3F6F2105D33D00449E8D /* OOFullScreenControlsView.h */,
-				0D0C3F702105D33D00449E8D /* iOS7ScrubberSliderFraming.h */,
-				0D0C3F712105D33D00449E8D /* OOCastManagerProtocol.h */,
-				0D0C3F722105D33D00449E8D /* OOAdOverlayInfo.h */,
-				0D0C3F732105D33D00449E8D /* OOPlayer.h */,
-				0D0C3F742105D33D00449E8D /* OOAnalyticsPluginBaseImpl.h */,
-				0D0C3F752105D33D00449E8D /* OOSeekInfo.h */,
-				0D0C3F762105D33D00449E8D /* OOLifeCycle.h */,
-				0D0C3F772105D33D00449E8D /* OOProgressSliderView.h */,
-				0D0C3F782105D33D00449E8D /* OOClosedCaptionsSelectorBackgroundViewController.h */,
-				0D0C3F792105D33D00449E8D /* OOAdPodInfo.h */,
-				0D0C3F7A2105D33D00449E8D /* OOStream.h */,
-				0D0C3F7B2105D33D00449E8D /* OOVolumeSliderView.h */,
-				0D0C3F7C2105D33D00449E8D /* OOFCCTVRating.h */,
-				0D0C3F7D2105D33D00449E8D /* OOMovingAverage.h */,
-				0D0C3F7E2105D33D00449E8D /* OOPerformanceStatisticsProtocol.h */,
-				0D0C3F7F2105D33D00449E8D /* OOEmbedTokenGenerator.h */,
-				0D0C3F802105D33D00449E8D /* OOCaption.h */,
-				0D0C3F812105D33D00449E8D /* OODynamicChannel.h */,
-				0D0C3F822105D33D00449E8D /* OOClosedCaptionsLabel.h */,
-				0D0C3F832105D33D00449E8D /* OOPerformanceNotificationNameMatcher.h */,
-				0D0C3F842105D33D00449E8D /* OOStateNotifier.h */,
-				0D0C3F852105D33D00449E8D /* OOVASTCompanion.h */,
-				0D0C3F862105D33D00449E8D /* OOAnalyticsPluginProtocol.h */,
-				0D0C3F872105D33D00449E8D /* OOFullScreenControlsBottomBarMainControlsView.h */,
-				0D0C3F882105D33D00449E8D /* OOInlineControlsView.h */,
-				0D0C3F892105D33D00449E8D /* OOTBXML.h */,
-				0D0C3F8A2105D33D00449E8D /* OOAudioTrackProtocol.h */,
-				0D0C3F8B2105D33D00449E8D /* OOVolumeSliderDelegate.h */,
-				0D0C3F8C2105D33D00449E8D /* OOAdSpotManager.h */,
-				0D0C3F8D2105D33D00449E8D /* OOTransparentToolbar.h */,
-				0D0C3F8E2105D33D00449E8D /* OOPerformanceEventWatchMemoryProfiling.h */,
-				0D0C3F8F2105D33D00449E8D /* OOAssetDownloadStream.h */,
-				0D0C3F902105D33D00449E8D /* OOVolumeSliderProtocol.h */,
-				0D0C3F912105D33D00449E8D /* OOPerformanceEventWatchProtocol.h */,
-				0D0C3F922105D33D00449E8D /* OOReturnState.h */,
-				0D0C3F932105D33D00449E8D /* OOUserInfo.h */,
-				0D0C3F942105D33D00449E8D /* OOVASTVMAPAdSpot.h */,
-				0D0C3F952105D33D00449E8D /* OOFCCTVRatingConfiguration.h */,
-				0D0C3F962105D33D00449E8D /* OOChannel.h */,
-				0D0C3F972105D33D00449E8D /* OOClientId.h */,
-				0D0C3F982105D33D00449E8D /* OOClosedCaptionsStyle.h */,
-				0D0C3F992105D33D00449E8D /* OOCallbacks.h */,
-				0D0C3F9A2105D33D00449E8D /* OOOrderedDictionary.h */,
-				0D0C3F9B2105D33D00449E8D /* OOEmbeddedSecureURLGenerator.h */,
-				0D0C3F9C2105D33D00449E8D /* OODeliveryTypeConstants.h */,
-				0D0C3F9D2105D33D00449E8D /* OOOoyalaPlayer.h */,
-				0D0C3F9E2105D33D00449E8D /* OOFullscreenButton.h */,
-				0D0C3F9F2105D33D00449E8D /* OOIQAnalyticsPlugin.h */,
-				0D0C3FA02105D33D00449E8D /* OOImages.h */,
-				0D0C3FA12105D33D00449E8D /* OOFairplayContentKeyDelegate.h */,
-				0D0C3FA22105D33D00449E8D /* OOVASTOffset.h */,
-				0D0C3FA32105D33D00449E8D /* OOPerformanceCountingStatistics.h */,
-				0D0C3FA42105D33D00449E8D /* OOOoyalaSimpleTVPlayerViewController.h */,
-				0D0C3FA52105D33D00449E8D /* OOPlayerInfo.h */,
-				0D0C3FA62105D33D00449E8D /* OOOoyalaAPIClient.h */,
-				0D0C3FA72105D33D00449E8D /* OOPerformanceStartEndStatistics.h */,
-				0D0C3FA82105D33D00449E8D /* OOVASTConstants.h */,
-				0D0C3FA92105D33D00449E8D /* OOPerformanceEventWatchCounting.h */,
-				0D0C3FAA2105D33D00449E8D /* OOChannelSet.h */,
-				0D0C3FAB2105D33D00449E8D /* OOAirPlayButton.h */,
-				0D0C3FAC2105D33D00449E8D /* OOCuePointsView.h */,
-				0D0C3FAD2105D33D00449E8D /* OOImagesIOS7.h */,
-				0D0C3FAE2105D33D00449E8D /* OODeviceInfo.h */,
-				0D0C3FAF2105D33D00449E8D /* OOAssetDownloadManager.h */,
-				0D0C3FB02105D33D00449E8D /* OOPerformanceCPUProfilingStatistics.h */,
-				0D0C3FB12105D33D00449E8D /* OOAssetDownloadOptions.h */,
-				0D0C3FB22105D33D00449E8D /* OOPlayPauseButton.h */,
-				0D0C3FB32105D33D00449E8D /* OOEmbeddedSignatureGenerator.h */,
-				0D0C3FB42105D33D00449E8D /* OOControls.h */,
-				0D0C3FB52105D33D00449E8D /* OOMultiAudioProtocol.h */,
-				0D0C3FB62105D33D00449E8D /* OODefaultPlayerInfo.h */,
-				0D0C3FB72105D33D00449E8D /* OOPaginatedParentItem.h */,
-				0D0C3FB82105D33D00449E8D /* OOControlsDelegate.h */,
-				0D0C3FB92105D33D00449E8D /* OOFullScreenControlsTopBar.h */,
-				0D0C3FBA2105D33D00449E8D /* OOClosedCaptionsButton.h */,
-				0D0C3FBB2105D33D00449E8D /* OOAuthorizableItem.h */,
-				0D0C3FBC2105D33D00449E8D /* OOPerformanceStatisticsSnapshot.h */,
-				0D0C3FBD2105D33D00449E8D /* OOAdPluginManagerProtocol.h */,
-				0D0C3FBE2105D33D00449E8D /* OOOoyalaPlayerViewController.h */,
-				0D0C3FBF2105D33D00449E8D /* OOJSONKit.h */,
-				0D0C3FC02105D33D00449E8D /* OOVASTStream.h */,
-				0D0C3FC12105D33D00449E8D /* OOVASTCreative.h */,
-				0D0C3FC22105D33D00449E8D /* OOManagedAdSpot.h */,
-				0D0C3FC32105D33D00449E8D /* OOVASTIcon.h */,
-				0D0C3FC42105D33D00449E8D /* OoyalaSDK.h */,
-				0D0C3FC52105D33D00449E8D /* OODiscoveryOptions.h */,
-				0D0C3FC62105D33D00449E8D /* OOPerformanceNotificationNameStateMatcher.h */,
-				0D0C3FC72105D33D00449E8D /* OOPerformanceMonitor.h */,
-				0D0C3FC82105D33D00449E8D /* OOFullScreenControlsBottomBarVolumeView.h */,
-				0D0C3FC92105D33D00449E8D /* OOFCCTVRatingVideoView.h */,
-				0D0C3FCA2105D33D00449E8D /* OOInlineViewController.h */,
-				0D0C3FCB2105D33D00449E8D /* OOOoyalaAdSpot.h */,
-				0D0C3FCC2105D33D00449E8D /* OOContentItem.h */,
-				0D0C3FCD2105D33D00449E8D /* OOAdSpotPlugin.h */,
-				0D0C3FCE2105D33D00449E8D /* OOUIProgressSliderIOS7.h */,
-				0D0C3FCF2105D33D00449E8D /* OOVASTNonLinearAds.h */,
-				0D0C3FD02105D33D00449E8D /* OOPerformanceEventWatchFileSpaceProfiling.h */,
-				0D0C3FD12105D33D00449E8D /* OOAudioTrack.h */,
-				0D0C3FD22105D33D00449E8D /* OOClosedCaptionsView.h */,
-				0D0C3FD32105D33D00449E8D /* OOManagedAdsPlugin.h */,
-				0D0C3FD42105D33D00449E8D /* OOClosedCaptionsSelectorViewController.h */,
-				0D0C3FD52105D33D00449E8D /* OOClosedCaptionsItem.h */,
-				0D0C3FD62105D33D00449E8D /* OOBufferView.h */,
-				0D0C3FD72105D33D00449E8D /* OOFullScreenViewController.h */,
-				0D0C3FD82105D33D00449E8D /* OOScalableImageButton.h */,
-				0D0C3FD92105D33D00449E8D /* OOVASTUtils.h */,
-				0D0C3FDA2105D33D00449E8D /* ScrubberSliderFraming.h */,
-				0D0C3FDB2105D33D00449E8D /* OOAdsLearnMoreButton.h */,
-				0D0C3FDC2105D33D00449E8D /* OOOoyalaError.h */,
-				0D0C3FDD2105D33D00449E8D /* OOFullScreenControlsBottomBar.h */,
-				0D0C3FDE2105D33D00449E8D /* OOSecureURLGenerator.h */,
-				0D0C3FDF2105D33D00449E8D /* OOVASTResource.h */,
-				0D0C3FE02105D33E00449E8D /* OOInlineControlsBottomBar.h */,
-				0D0C3FE12105D33E00449E8D /* OOModule.h */,
-				0D0C3FE22105D33E00449E8D /* OODiscoveryManager.h */,
-				0D0C3FE32105D33E00449E8D /* OOVASTAdSpot.h */,
-				0D0C3FE42105D33E00449E8D /* OOPlayableItem.h */,
+				0D17802E2105DB7300A0A20C /* OOAdPlugin.h */,
+				0D17802F2105DB7300A0A20C /* OOTimeSliderDelegate.h */,
+				0D1780302105DB7300A0A20C /* OOVASTVMAPAdHelper.h */,
+				0D1780312105DB7300A0A20C /* OOAudioTrackSelectionProtocol.h */,
+				0D1780322105DB7300A0A20C /* OODebugMode.h */,
+				0D1780332105DB7300A0A20C /* OOIQConfiguration.h */,
+				0D1780342105DB7300A0A20C /* OOVASTCompanionAds.h */,
+				0D1780352105DB7300A0A20C /* OOVASTAd.h */,
+				0D1780362105DB7300A0A20C /* OOTimeSliderProtocol.h */,
+				0D1780372105DB7300A0A20C /* OOFCCTVRatingStampView.h */,
+				0D1780382105DB7300A0A20C /* OOPlayerProtocol.h */,
+				0D1780392105DB7300A0A20C /* OOAdSpot.h */,
+				0D17803A2105DB7300A0A20C /* OOUIUtils.h */,
+				0D17803B2105DB7300A0A20C /* OOUnbundledVideo.h */,
+				0D17803C2105DB7300A0A20C /* OOPerformanceEventWatchCPUProfiling.h */,
+				0D17803D2105DB7300A0A20C /* OOPerformanceMonitorBuilder.h */,
+				0D17803E2105DB7300A0A20C /* OONextButton.h */,
+				0D17803F2105DB7300A0A20C /* OOOptions.h */,
+				0D1780402105DB7300A0A20C /* OOAssetLoaderDelegate.h */,
+				0D1780412105DB7300A0A20C /* OOVASTLinearAd.h */,
+				0D1780422105DB7300A0A20C /* OOPerformanceMemoryProfilingStatistics.h */,
+				0D1780432105DB7300A0A20C /* OOStreamPlayerMappingPredicate.h */,
+				0D1780442105DB7300A0A20C /* OOSignatureGenerator.h */,
+				0D1780452105DB7300A0A20C /* OOPerformanceFileSpaceProfilingStatistics.h */,
+				0D1780462105DB7300A0A20C /* OOControlsViewController.h */,
+				0D1780472105DB7300A0A20C /* OOStreamPlayer.h */,
+				0D1780482105DB7300A0A20C /* OOPerformanceEventMatcherProtocol.h */,
+				0D1780492105DB7300A0A20C /* OOPerformanceEventWatchStartEnd.h */,
+				0D17804A2105DB7300A0A20C /* OOVideoGravityButton.h */,
+				0D17804B2105DB7300A0A20C /* OOVASTNonLinear.h */,
+				0D17804C2105DB7300A0A20C /* OOPreviousButton.h */,
+				0D17804D2105DB7300A0A20C /* OOPlayerDomain.h */,
+				0D17804E2105DB7300A0A20C /* OOOfflineVideo.h */,
+				0D17804F2105DB7300A0A20C /* OOVolumeButton.h */,
+				0D1780502105DB7300A0A20C /* OOClosedCaptions.h */,
+				0D1780512105DB7300A0A20C /* OOCastModeOptions.h */,
+				0D1780522105DB7300A0A20C /* OOStreamPlayerMappingCreator.h */,
+				0D1780532105DB7300A0A20C /* OOVideo.h */,
+				0D1780542105DB7300A0A20C /* OOFullScreenControlsView.h */,
+				0D1780552105DB7300A0A20C /* iOS7ScrubberSliderFraming.h */,
+				0D1780562105DB7300A0A20C /* OOCastManagerProtocol.h */,
+				0D1780572105DB7300A0A20C /* OOAdOverlayInfo.h */,
+				0D1780582105DB7300A0A20C /* OOPlayer.h */,
+				0D1780592105DB7300A0A20C /* OOAnalyticsPluginBaseImpl.h */,
+				0D17805A2105DB7300A0A20C /* OOSeekInfo.h */,
+				0D17805B2105DB7300A0A20C /* OOLifeCycle.h */,
+				0D17805C2105DB7300A0A20C /* OOProgressSliderView.h */,
+				0D17805D2105DB7300A0A20C /* OOClosedCaptionsSelectorBackgroundViewController.h */,
+				0D17805E2105DB7300A0A20C /* OOAdPodInfo.h */,
+				0D17805F2105DB7300A0A20C /* OOStream.h */,
+				0D1780602105DB7300A0A20C /* OOVolumeSliderView.h */,
+				0D1780612105DB7300A0A20C /* OOFCCTVRating.h */,
+				0D1780622105DB7300A0A20C /* OOMovingAverage.h */,
+				0D1780632105DB7300A0A20C /* OOPerformanceStatisticsProtocol.h */,
+				0D1780642105DB7300A0A20C /* OOEmbedTokenGenerator.h */,
+				0D1780652105DB7300A0A20C /* OOCaption.h */,
+				0D1780662105DB7300A0A20C /* OODynamicChannel.h */,
+				0D1780672105DB7300A0A20C /* OOClosedCaptionsLabel.h */,
+				0D1780682105DB7300A0A20C /* OOPerformanceNotificationNameMatcher.h */,
+				0D1780692105DB7300A0A20C /* OOStateNotifier.h */,
+				0D17806A2105DB7300A0A20C /* OOVASTCompanion.h */,
+				0D17806B2105DB7300A0A20C /* OOAnalyticsPluginProtocol.h */,
+				0D17806C2105DB7300A0A20C /* OOFullScreenControlsBottomBarMainControlsView.h */,
+				0D17806D2105DB7300A0A20C /* OOInlineControlsView.h */,
+				0D17806E2105DB7300A0A20C /* OOTBXML.h */,
+				0D17806F2105DB7300A0A20C /* OOAudioTrackProtocol.h */,
+				0D1780702105DB7300A0A20C /* OOVolumeSliderDelegate.h */,
+				0D1780712105DB7300A0A20C /* OOAdSpotManager.h */,
+				0D1780722105DB7300A0A20C /* OOTransparentToolbar.h */,
+				0D1780732105DB7300A0A20C /* OOPerformanceEventWatchMemoryProfiling.h */,
+				0D1780742105DB7300A0A20C /* OOAssetDownloadStream.h */,
+				0D1780752105DB7300A0A20C /* OOVolumeSliderProtocol.h */,
+				0D1780762105DB7300A0A20C /* OOPerformanceEventWatchProtocol.h */,
+				0D1780772105DB7300A0A20C /* OOReturnState.h */,
+				0D1780782105DB7300A0A20C /* OOUserInfo.h */,
+				0D1780792105DB7300A0A20C /* OOVASTVMAPAdSpot.h */,
+				0D17807A2105DB7300A0A20C /* OOFCCTVRatingConfiguration.h */,
+				0D17807B2105DB7300A0A20C /* OOChannel.h */,
+				0D17807C2105DB7300A0A20C /* OOClientId.h */,
+				0D17807D2105DB7300A0A20C /* OOClosedCaptionsStyle.h */,
+				0D17807E2105DB7300A0A20C /* OOCallbacks.h */,
+				0D17807F2105DB7300A0A20C /* OOOrderedDictionary.h */,
+				0D1780802105DB7300A0A20C /* OOEmbeddedSecureURLGenerator.h */,
+				0D1780812105DB7300A0A20C /* OODeliveryTypeConstants.h */,
+				0D1780822105DB7300A0A20C /* OOOoyalaPlayer.h */,
+				0D1780832105DB7300A0A20C /* OOFullscreenButton.h */,
+				0D1780842105DB7300A0A20C /* OOIQAnalyticsPlugin.h */,
+				0D1780852105DB7300A0A20C /* OOImages.h */,
+				0D1780862105DB7300A0A20C /* OOFairplayContentKeyDelegate.h */,
+				0D1780872105DB7300A0A20C /* OOVASTOffset.h */,
+				0D1780882105DB7300A0A20C /* OOPerformanceCountingStatistics.h */,
+				0D1780892105DB7300A0A20C /* OOOoyalaSimpleTVPlayerViewController.h */,
+				0D17808A2105DB7300A0A20C /* OOPlayerInfo.h */,
+				0D17808B2105DB7300A0A20C /* OOOoyalaAPIClient.h */,
+				0D17808C2105DB7300A0A20C /* OOPerformanceStartEndStatistics.h */,
+				0D17808D2105DB7300A0A20C /* OOVASTConstants.h */,
+				0D17808E2105DB7300A0A20C /* OOPerformanceEventWatchCounting.h */,
+				0D17808F2105DB7300A0A20C /* OOChannelSet.h */,
+				0D1780902105DB7300A0A20C /* OOAirPlayButton.h */,
+				0D1780912105DB7300A0A20C /* OOCuePointsView.h */,
+				0D1780922105DB7300A0A20C /* OOImagesIOS7.h */,
+				0D1780932105DB7300A0A20C /* OODeviceInfo.h */,
+				0D1780942105DB7300A0A20C /* OOAssetDownloadManager.h */,
+				0D1780952105DB7300A0A20C /* OOPerformanceCPUProfilingStatistics.h */,
+				0D1780962105DB7300A0A20C /* OOAssetDownloadOptions.h */,
+				0D1780972105DB7300A0A20C /* OOPlayPauseButton.h */,
+				0D1780982105DB7300A0A20C /* OOEmbeddedSignatureGenerator.h */,
+				0D1780992105DB7300A0A20C /* OOControls.h */,
+				0D17809A2105DB7300A0A20C /* OOMultiAudioProtocol.h */,
+				0D17809B2105DB7300A0A20C /* OODefaultPlayerInfo.h */,
+				0D17809C2105DB7300A0A20C /* OOPaginatedParentItem.h */,
+				0D17809D2105DB7300A0A20C /* OOControlsDelegate.h */,
+				0D17809E2105DB7300A0A20C /* OOFullScreenControlsTopBar.h */,
+				0D17809F2105DB7300A0A20C /* OOClosedCaptionsButton.h */,
+				0D1780A02105DB7300A0A20C /* OOAuthorizableItem.h */,
+				0D1780A12105DB7300A0A20C /* OOPerformanceStatisticsSnapshot.h */,
+				0D1780A22105DB7300A0A20C /* OOAdPluginManagerProtocol.h */,
+				0D1780A32105DB7300A0A20C /* OOOoyalaPlayerViewController.h */,
+				0D1780A42105DB7300A0A20C /* OOJSONKit.h */,
+				0D1780A52105DB7300A0A20C /* OOVASTStream.h */,
+				0D1780A62105DB7300A0A20C /* OOVASTCreative.h */,
+				0D1780A72105DB7300A0A20C /* OOManagedAdSpot.h */,
+				0D1780A82105DB7300A0A20C /* OOVASTIcon.h */,
+				0D1780A92105DB7300A0A20C /* OoyalaSDK.h */,
+				0D1780AA2105DB7300A0A20C /* OODiscoveryOptions.h */,
+				0D1780AB2105DB7300A0A20C /* OOPerformanceNotificationNameStateMatcher.h */,
+				0D1780AC2105DB7300A0A20C /* OOPerformanceMonitor.h */,
+				0D1780AD2105DB7300A0A20C /* OOFullScreenControlsBottomBarVolumeView.h */,
+				0D1780AE2105DB7300A0A20C /* OOFCCTVRatingVideoView.h */,
+				0D1780AF2105DB7300A0A20C /* OOInlineViewController.h */,
+				0D1780B02105DB7300A0A20C /* OOOoyalaAdSpot.h */,
+				0D1780B12105DB7300A0A20C /* OOContentItem.h */,
+				0D1780B22105DB7300A0A20C /* OOAdSpotPlugin.h */,
+				0D1780B32105DB7300A0A20C /* OOVASTNonLinearAds.h */,
+				0D1780B42105DB7300A0A20C /* OOPerformanceEventWatchFileSpaceProfiling.h */,
+				0D1780B52105DB7300A0A20C /* OOAudioTrack.h */,
+				0D1780B62105DB7300A0A20C /* OOClosedCaptionsView.h */,
+				0D1780B72105DB7300A0A20C /* OOManagedAdsPlugin.h */,
+				0D1780B82105DB7300A0A20C /* OOClosedCaptionsSelectorViewController.h */,
+				0D1780B92105DB7300A0A20C /* OOClosedCaptionsItem.h */,
+				0D1780BA2105DB7300A0A20C /* OOBufferView.h */,
+				0D1780BB2105DB7300A0A20C /* OOFullScreenViewController.h */,
+				0D1780BC2105DB7300A0A20C /* OOScalableImageButton.h */,
+				0D1780BD2105DB7300A0A20C /* OOVASTUtils.h */,
+				0D1780BE2105DB7300A0A20C /* ScrubberSliderFraming.h */,
+				0D1780BF2105DB7300A0A20C /* OOAdsLearnMoreButton.h */,
+				0D1780C02105DB7300A0A20C /* OOOoyalaError.h */,
+				0D1780C12105DB7300A0A20C /* OOFullScreenControlsBottomBar.h */,
+				0D1780C22105DB7300A0A20C /* OOSecureURLGenerator.h */,
+				0D1780C32105DB7300A0A20C /* OOVASTResource.h */,
+				0D1780C42105DB7300A0A20C /* OOInlineControlsBottomBar.h */,
+				0D1780C52105DB7300A0A20C /* OOModule.h */,
+				0D1780C62105DB7300A0A20C /* OODiscoveryManager.h */,
+				0D1780C72105DB7300A0A20C /* OOVASTAdSpot.h */,
+				0D1780C82105DB7300A0A20C /* OOPlayableItem.h */,
 			);
 			name = Headers;
 			path = Wrapped/OoyalaSDK.framework/Versions/A/Headers;
@@ -558,7 +555,7 @@
 		41EE653E1F45990800930274 = {
 			isa = PBXGroup;
 			children = (
-				0D0C3F482105D33D00449E8D /* Headers */,
+				0D17802D2105DB7300A0A20C /* Headers */,
 				41EE654A1F45990800930274 /* DynamicOoyalaWrapper */,
 				41EE65491F45990800930274 /* Products */,
 				41EE65531F45993800930274 /* Frameworks */,
@@ -584,8 +581,8 @@
 		41EE65531F45993800930274 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				418167A41FD7C82400B54849 /* OoyalaSDK.framework */,
 				41EE65761F459A0000930274 /* JavaScriptCore.framework */,
+				0D177DBD2105DA9000A0A20C /* OoyalaSDK.framework */,
 				41EE65561F4599F200930274 /* AVFoundation.framework */,
 				41EE65571F4599F200930274 /* AVKit.framework */,
 				41EE65581F4599F200930274 /* CFNetwork.framework */,
@@ -613,162 +610,161 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D0C3FE52105D33E00449E8D /* OOAdPlugin.h in Headers */,
-				0D0C404F2105D33E00449E8D /* OOEmbeddedSignatureGenerator.h in Headers */,
-				0D0C402B2105D33E00449E8D /* OOAssetDownloadStream.h in Headers */,
-				0D0C40142105D33E00449E8D /* OOClosedCaptionsSelectorBackgroundViewController.h in Headers */,
-				0D0C3FFE2105D33E00449E8D /* OOStreamPlayer.h in Headers */,
-				0D0C40382105D33E00449E8D /* OODeliveryTypeConstants.h in Headers */,
-				0D0C40452105D33E00449E8D /* OOPerformanceEventWatchCounting.h in Headers */,
-				0D0C40092105D33E00449E8D /* OOStreamPlayerMappingCreator.h in Headers */,
-				0D0C3FF92105D33E00449E8D /* OOPerformanceMemoryProfilingStatistics.h in Headers */,
-				0D0C40802105D33F00449E8D /* OOPlayableItem.h in Headers */,
-				0D0C400F2105D33E00449E8D /* OOPlayer.h in Headers */,
-				0D0C40082105D33E00449E8D /* OOCastModeOptions.h in Headers */,
-				0D0C40772105D33F00449E8D /* OOAdsLearnMoreButton.h in Headers */,
-				0D0C3FFD2105D33E00449E8D /* OOControlsViewController.h in Headers */,
-				0D0C40312105D33E00449E8D /* OOFCCTVRatingConfiguration.h in Headers */,
-				0D0C40402105D33E00449E8D /* OOOoyalaSimpleTVPlayerViewController.h in Headers */,
-				0D0C40612105D33E00449E8D /* OODiscoveryOptions.h in Headers */,
-				0D0C40362105D33E00449E8D /* OOOrderedDictionary.h in Headers */,
-				0D0C40032105D33E00449E8D /* OOPreviousButton.h in Headers */,
-				0D0C3FFC2105D33E00449E8D /* OOPerformanceFileSpaceProfilingStatistics.h in Headers */,
-				0D0C403F2105D33E00449E8D /* OOPerformanceCountingStatistics.h in Headers */,
-				0D0C401A2105D33E00449E8D /* OOPerformanceStatisticsProtocol.h in Headers */,
-				0D0C403B2105D33E00449E8D /* OOIQAnalyticsPlugin.h in Headers */,
-				0D0C40182105D33E00449E8D /* OOFCCTVRating.h in Headers */,
-				0D0C40712105D33E00449E8D /* OOClosedCaptionsItem.h in Headers */,
-				0D0C40412105D33E00449E8D /* OOPlayerInfo.h in Headers */,
-				0D0C3FF62105D33E00449E8D /* OOOptions.h in Headers */,
-				0D0C40542105D33E00449E8D /* OOControlsDelegate.h in Headers */,
-				0D0C404B2105D33E00449E8D /* OOAssetDownloadManager.h in Headers */,
-				0D0C402E2105D33E00449E8D /* OOReturnState.h in Headers */,
-				0D0C3FED2105D33E00449E8D /* OOTimeSliderProtocol.h in Headers */,
-				0D0C400E2105D33E00449E8D /* OOAdOverlayInfo.h in Headers */,
-				0D0C406B2105D33E00449E8D /* OOVASTNonLinearAds.h in Headers */,
-				0D0C40332105D33E00449E8D /* OOClientId.h in Headers */,
-				0D0C40422105D33E00449E8D /* OOOoyalaAPIClient.h in Headers */,
-				0D0C40692105D33E00449E8D /* OOAdSpotPlugin.h in Headers */,
-				0D0C40492105D33E00449E8D /* OOImagesIOS7.h in Headers */,
-				0D0C40002105D33E00449E8D /* OOPerformanceEventWatchStartEnd.h in Headers */,
-				0D0C40762105D33F00449E8D /* ScrubberSliderFraming.h in Headers */,
-				0D0C40702105D33E00449E8D /* OOClosedCaptionsSelectorViewController.h in Headers */,
-				0D0C402C2105D33E00449E8D /* OOVolumeSliderProtocol.h in Headers */,
-				0D0C406F2105D33E00449E8D /* OOManagedAdsPlugin.h in Headers */,
-				0D0C40042105D33E00449E8D /* OOPlayerDomain.h in Headers */,
-				0D0C40292105D33E00449E8D /* OOTransparentToolbar.h in Headers */,
-				0D0C40342105D33E00449E8D /* OOClosedCaptionsStyle.h in Headers */,
-				0D0C40232105D33E00449E8D /* OOFullScreenControlsBottomBarMainControlsView.h in Headers */,
-				0D0C40442105D33E00449E8D /* OOVASTConstants.h in Headers */,
-				0D0C401D2105D33E00449E8D /* OODynamicChannel.h in Headers */,
-				0D0C40722105D33E00449E8D /* OOBufferView.h in Headers */,
-				0D0C3FF72105D33E00449E8D /* OOAssetLoaderDelegate.h in Headers */,
-				0D0C40472105D33E00449E8D /* OOAirPlayButton.h in Headers */,
-				0D0C405E2105D33E00449E8D /* OOManagedAdSpot.h in Headers */,
-				0D0C40252105D33E00449E8D /* OOTBXML.h in Headers */,
-				0D0C404D2105D33E00449E8D /* OOAssetDownloadOptions.h in Headers */,
-				0D0C406D2105D33E00449E8D /* OOAudioTrack.h in Headers */,
-				0D0C400D2105D33E00449E8D /* OOCastManagerProtocol.h in Headers */,
-				0D0C40222105D33E00449E8D /* OOAnalyticsPluginProtocol.h in Headers */,
-				0D0C40432105D33E00449E8D /* OOPerformanceStartEndStatistics.h in Headers */,
-				0D0C407A2105D33F00449E8D /* OOSecureURLGenerator.h in Headers */,
-				0D0C40262105D33E00449E8D /* OOAudioTrackProtocol.h in Headers */,
-				0D0C40022105D33E00449E8D /* OOVASTNonLinear.h in Headers */,
-				0D0C402F2105D33E00449E8D /* OOUserInfo.h in Headers */,
-				0D0C405A2105D33E00449E8D /* OOOoyalaPlayerViewController.h in Headers */,
-				0D0C40192105D33E00449E8D /* OOMovingAverage.h in Headers */,
-				0D0C40242105D33E00449E8D /* OOInlineControlsView.h in Headers */,
-				0D0C405C2105D33E00449E8D /* OOVASTStream.h in Headers */,
-				0D0C40372105D33E00449E8D /* OOEmbeddedSecureURLGenerator.h in Headers */,
-				0D0C401C2105D33E00449E8D /* OOCaption.h in Headers */,
-				0D0C401F2105D33E00449E8D /* OOPerformanceNotificationNameMatcher.h in Headers */,
-				0D0C40522105D33E00449E8D /* OODefaultPlayerInfo.h in Headers */,
-				0D0C400B2105D33E00449E8D /* OOFullScreenControlsView.h in Headers */,
-				0D0C3FF42105D33E00449E8D /* OOPerformanceMonitorBuilder.h in Headers */,
-				0D0C40552105D33E00449E8D /* OOFullScreenControlsTopBar.h in Headers */,
-				0D0C404A2105D33E00449E8D /* OODeviceInfo.h in Headers */,
-				0D0C3FEC2105D33E00449E8D /* OOVASTAd.h in Headers */,
-				0D0C40462105D33E00449E8D /* OOChannelSet.h in Headers */,
-				0D0C40642105D33E00449E8D /* OOFullScreenControlsBottomBarVolumeView.h in Headers */,
-				0D0C407F2105D33F00449E8D /* OOVASTAdSpot.h in Headers */,
-				0D0C40792105D33F00449E8D /* OOFullScreenControlsBottomBar.h in Headers */,
-				0D0C3FEE2105D33E00449E8D /* OOFCCTVRatingStampView.h in Headers */,
-				0D0C40352105D33E00449E8D /* OOCallbacks.h in Headers */,
-				0D0C3FF32105D33E00449E8D /* OOPerformanceEventWatchCPUProfiling.h in Headers */,
-				0D0C40302105D33E00449E8D /* OOVASTVMAPAdSpot.h in Headers */,
-				0D0C3FE62105D33E00449E8D /* OOTimeSliderDelegate.h in Headers */,
-				0D0C40122105D33E00449E8D /* OOLifeCycle.h in Headers */,
-				0D0C407B2105D33F00449E8D /* OOVASTResource.h in Headers */,
-				0D0C40212105D33E00449E8D /* OOVASTCompanion.h in Headers */,
-				0D0C403E2105D33E00449E8D /* OOVASTOffset.h in Headers */,
-				0D0C40742105D33F00449E8D /* OOScalableImageButton.h in Headers */,
-				0D0C40652105D33E00449E8D /* OOFCCTVRatingVideoView.h in Headers */,
-				0D0C40602105D33E00449E8D /* OoyalaSDK.h in Headers */,
-				0D0C3FF02105D33E00449E8D /* OOAdSpot.h in Headers */,
-				0D0C40732105D33E00449E8D /* OOFullScreenViewController.h in Headers */,
-				0D0C40112105D33E00449E8D /* OOSeekInfo.h in Headers */,
-				0D0C40662105D33E00449E8D /* OOInlineViewController.h in Headers */,
-				0D0C40502105D33E00449E8D /* OOControls.h in Headers */,
-				0D0C40282105D33E00449E8D /* OOAdSpotManager.h in Headers */,
-				0D0C3FF82105D33E00449E8D /* OOVASTLinearAd.h in Headers */,
-				0D0C3FFA2105D33E00449E8D /* OOStreamPlayerMappingPredicate.h in Headers */,
-				0D0C407D2105D33F00449E8D /* OOModule.h in Headers */,
-				0D0C400A2105D33E00449E8D /* OOVideo.h in Headers */,
-				0D0C405B2105D33E00449E8D /* OOJSONKit.h in Headers */,
-				0D0C40682105D33E00449E8D /* OOContentItem.h in Headers */,
-				0D0C406C2105D33E00449E8D /* OOPerformanceEventWatchFileSpaceProfiling.h in Headers */,
-				0D0C40162105D33E00449E8D /* OOStream.h in Headers */,
-				0D0C402D2105D33E00449E8D /* OOPerformanceEventWatchProtocol.h in Headers */,
-				0D0C40592105D33E00449E8D /* OOAdPluginManagerProtocol.h in Headers */,
-				0D0C40512105D33E00449E8D /* OOMultiAudioProtocol.h in Headers */,
-				0D0C40012105D33E00449E8D /* OOVideoGravityButton.h in Headers */,
-				0D0C407E2105D33F00449E8D /* OODiscoveryManager.h in Headers */,
-				0D0C3FFF2105D33E00449E8D /* OOPerformanceEventMatcherProtocol.h in Headers */,
-				0D0C40322105D33E00449E8D /* OOChannel.h in Headers */,
-				0D0C40072105D33E00449E8D /* OOClosedCaptions.h in Headers */,
-				0D0C401B2105D33E00449E8D /* OOEmbedTokenGenerator.h in Headers */,
-				0D0C40152105D33E00449E8D /* OOAdPodInfo.h in Headers */,
-				0D0C3FEF2105D33E00449E8D /* OOPlayerProtocol.h in Headers */,
-				0D0C3FE82105D33E00449E8D /* OOAudioTrackSelectionProtocol.h in Headers */,
-				0D0C3FF22105D33E00449E8D /* OOUnbundledVideo.h in Headers */,
-				0D0C403C2105D33E00449E8D /* OOImages.h in Headers */,
-				0D0C40572105D33E00449E8D /* OOAuthorizableItem.h in Headers */,
-				0D0C407C2105D33F00449E8D /* OOInlineControlsBottomBar.h in Headers */,
-				0D0C3FFB2105D33E00449E8D /* OOSignatureGenerator.h in Headers */,
-				0D0C3FE72105D33E00449E8D /* OOVASTVMAPAdHelper.h in Headers */,
-				0D0C40672105D33E00449E8D /* OOOoyalaAdSpot.h in Headers */,
-				0D0C405D2105D33E00449E8D /* OOVASTCreative.h in Headers */,
-				0D0C403A2105D33E00449E8D /* OOFullscreenButton.h in Headers */,
-				0D0C40172105D33E00449E8D /* OOVolumeSliderView.h in Headers */,
-				0D0C406A2105D33E00449E8D /* OOUIProgressSliderIOS7.h in Headers */,
-				0D0C40562105D33E00449E8D /* OOClosedCaptionsButton.h in Headers */,
-				0D0C40272105D33E00449E8D /* OOVolumeSliderDelegate.h in Headers */,
-				0D0C40102105D33E00449E8D /* OOAnalyticsPluginBaseImpl.h in Headers */,
-				0D0C404E2105D33E00449E8D /* OOPlayPauseButton.h in Headers */,
-				0D0C404C2105D33E00449E8D /* OOPerformanceCPUProfilingStatistics.h in Headers */,
-				0D0C3FEB2105D33E00449E8D /* OOVASTCompanionAds.h in Headers */,
-				0D0C40062105D33E00449E8D /* OOVolumeButton.h in Headers */,
-				0D0C402A2105D33E00449E8D /* OOPerformanceEventWatchMemoryProfiling.h in Headers */,
-				0D0C40392105D33E00449E8D /* OOOoyalaPlayer.h in Headers */,
-				0D0C40752105D33F00449E8D /* OOVASTUtils.h in Headers */,
-				0D0C400C2105D33E00449E8D /* iOS7ScrubberSliderFraming.h in Headers */,
-				0D0C40482105D33E00449E8D /* OOCuePointsView.h in Headers */,
-				0D0C3FE92105D33E00449E8D /* OODebugMode.h in Headers */,
-				0D0C3FEA2105D33E00449E8D /* OOIQConfiguration.h in Headers */,
-				0D0C40782105D33F00449E8D /* OOOoyalaError.h in Headers */,
-				0D0C3FF12105D33E00449E8D /* OOUIUtils.h in Headers */,
-				0D0C40632105D33E00449E8D /* OOPerformanceMonitor.h in Headers */,
-				0D0C401E2105D33E00449E8D /* OOClosedCaptionsLabel.h in Headers */,
-				0D0C3FF52105D33E00449E8D /* OONextButton.h in Headers */,
-				0D0C40582105D33E00449E8D /* OOPerformanceStatisticsSnapshot.h in Headers */,
-				0D0C403D2105D33E00449E8D /* OOFairplayContentKeyDelegate.h in Headers */,
-				0D0C40052105D33E00449E8D /* OOOfflineVideo.h in Headers */,
-				0D0C406E2105D33E00449E8D /* OOClosedCaptionsView.h in Headers */,
-				0D0C40202105D33E00449E8D /* OOStateNotifier.h in Headers */,
-				0D0C40622105D33E00449E8D /* OOPerformanceNotificationNameStateMatcher.h in Headers */,
-				0D0C40132105D33E00449E8D /* OOProgressSliderView.h in Headers */,
-				0D0C40532105D33E00449E8D /* OOPaginatedParentItem.h in Headers */,
-				0D0C405F2105D33E00449E8D /* OOVASTIcon.h in Headers */,
+				0D1781642105DC0D00A0A20C /* OOAdPlugin.h in Headers */,
+				0D1781652105DC0D00A0A20C /* OOTimeSliderDelegate.h in Headers */,
+				0D1781662105DC0D00A0A20C /* OOVASTVMAPAdHelper.h in Headers */,
+				0D1781672105DC0D00A0A20C /* OOAudioTrackSelectionProtocol.h in Headers */,
+				0D1781682105DC0D00A0A20C /* OODebugMode.h in Headers */,
+				0D1781692105DC0D00A0A20C /* OOIQConfiguration.h in Headers */,
+				0D17816A2105DC0D00A0A20C /* OOVASTCompanionAds.h in Headers */,
+				0D17816B2105DC0D00A0A20C /* OOVASTAd.h in Headers */,
+				0D17816C2105DC0D00A0A20C /* OOTimeSliderProtocol.h in Headers */,
+				0D17816D2105DC0D00A0A20C /* OOFCCTVRatingStampView.h in Headers */,
+				0D17816E2105DC0D00A0A20C /* OOPlayerProtocol.h in Headers */,
+				0D17816F2105DC0D00A0A20C /* OOAdSpot.h in Headers */,
+				0D1781702105DC0D00A0A20C /* OOUIUtils.h in Headers */,
+				0D1781712105DC0D00A0A20C /* OOUnbundledVideo.h in Headers */,
+				0D1781722105DC0D00A0A20C /* OOPerformanceEventWatchCPUProfiling.h in Headers */,
+				0D1781732105DC0D00A0A20C /* OOPerformanceMonitorBuilder.h in Headers */,
+				0D1781742105DC0D00A0A20C /* OONextButton.h in Headers */,
+				0D1781752105DC0D00A0A20C /* OOOptions.h in Headers */,
+				0D1781762105DC0D00A0A20C /* OOAssetLoaderDelegate.h in Headers */,
+				0D1781772105DC0D00A0A20C /* OOVASTLinearAd.h in Headers */,
+				0D1781782105DC0D00A0A20C /* OOPerformanceMemoryProfilingStatistics.h in Headers */,
+				0D1781792105DC0D00A0A20C /* OOStreamPlayerMappingPredicate.h in Headers */,
+				0D17817A2105DC0D00A0A20C /* OOSignatureGenerator.h in Headers */,
+				0D17817B2105DC0E00A0A20C /* OOPerformanceFileSpaceProfilingStatistics.h in Headers */,
+				0D17817C2105DC0E00A0A20C /* OOControlsViewController.h in Headers */,
+				0D17817D2105DC0E00A0A20C /* OOStreamPlayer.h in Headers */,
+				0D17817E2105DC0E00A0A20C /* OOPerformanceEventMatcherProtocol.h in Headers */,
+				0D17817F2105DC0E00A0A20C /* OOPerformanceEventWatchStartEnd.h in Headers */,
+				0D1781802105DC0E00A0A20C /* OOVideoGravityButton.h in Headers */,
+				0D1781812105DC0E00A0A20C /* OOVASTNonLinear.h in Headers */,
+				0D1781822105DC0E00A0A20C /* OOPreviousButton.h in Headers */,
+				0D1781832105DC0E00A0A20C /* OOPlayerDomain.h in Headers */,
+				0D1781842105DC0E00A0A20C /* OOOfflineVideo.h in Headers */,
+				0D1781852105DC0E00A0A20C /* OOVolumeButton.h in Headers */,
+				0D1781862105DC0E00A0A20C /* OOClosedCaptions.h in Headers */,
+				0D1781872105DC0E00A0A20C /* OOCastModeOptions.h in Headers */,
+				0D1781882105DC0E00A0A20C /* OOStreamPlayerMappingCreator.h in Headers */,
+				0D1781892105DC0E00A0A20C /* OOVideo.h in Headers */,
+				0D17818A2105DC0E00A0A20C /* OOFullScreenControlsView.h in Headers */,
+				0D17818B2105DC0E00A0A20C /* iOS7ScrubberSliderFraming.h in Headers */,
+				0D17818C2105DC0E00A0A20C /* OOCastManagerProtocol.h in Headers */,
+				0D17818D2105DC0E00A0A20C /* OOAdOverlayInfo.h in Headers */,
+				0D17818E2105DC0E00A0A20C /* OOPlayer.h in Headers */,
+				0D17818F2105DC0E00A0A20C /* OOAnalyticsPluginBaseImpl.h in Headers */,
+				0D1781902105DC0E00A0A20C /* OOSeekInfo.h in Headers */,
+				0D1781912105DC0E00A0A20C /* OOLifeCycle.h in Headers */,
+				0D1781922105DC0E00A0A20C /* OOProgressSliderView.h in Headers */,
+				0D1781932105DC0E00A0A20C /* OOClosedCaptionsSelectorBackgroundViewController.h in Headers */,
+				0D1781942105DC0E00A0A20C /* OOAdPodInfo.h in Headers */,
+				0D1781952105DC0E00A0A20C /* OOStream.h in Headers */,
+				0D1781962105DC0E00A0A20C /* OOVolumeSliderView.h in Headers */,
+				0D1781972105DC0E00A0A20C /* OOFCCTVRating.h in Headers */,
+				0D1781982105DC0E00A0A20C /* OOMovingAverage.h in Headers */,
+				0D1781992105DC0E00A0A20C /* OOPerformanceStatisticsProtocol.h in Headers */,
+				0D17819A2105DC0E00A0A20C /* OOEmbedTokenGenerator.h in Headers */,
+				0D17819B2105DC0E00A0A20C /* OOCaption.h in Headers */,
+				0D17819C2105DC0E00A0A20C /* OODynamicChannel.h in Headers */,
+				0D17819D2105DC0E00A0A20C /* OOClosedCaptionsLabel.h in Headers */,
+				0D17819E2105DC0E00A0A20C /* OOPerformanceNotificationNameMatcher.h in Headers */,
+				0D17819F2105DC0E00A0A20C /* OOStateNotifier.h in Headers */,
+				0D1781A02105DC0E00A0A20C /* OOVASTCompanion.h in Headers */,
+				0D1781A12105DC0E00A0A20C /* OOAnalyticsPluginProtocol.h in Headers */,
+				0D1781A22105DC0E00A0A20C /* OOFullScreenControlsBottomBarMainControlsView.h in Headers */,
+				0D1781A32105DC0E00A0A20C /* OOInlineControlsView.h in Headers */,
+				0D1781A42105DC0E00A0A20C /* OOTBXML.h in Headers */,
+				0D1781A52105DC0E00A0A20C /* OOAudioTrackProtocol.h in Headers */,
+				0D1781A62105DC0E00A0A20C /* OOVolumeSliderDelegate.h in Headers */,
+				0D1781A72105DC0E00A0A20C /* OOAdSpotManager.h in Headers */,
+				0D1781A82105DC0E00A0A20C /* OOTransparentToolbar.h in Headers */,
+				0D1781A92105DC0E00A0A20C /* OOPerformanceEventWatchMemoryProfiling.h in Headers */,
+				0D1781AA2105DC0E00A0A20C /* OOAssetDownloadStream.h in Headers */,
+				0D1781AB2105DC0E00A0A20C /* OOVolumeSliderProtocol.h in Headers */,
+				0D1781AC2105DC0E00A0A20C /* OOPerformanceEventWatchProtocol.h in Headers */,
+				0D1781AD2105DC0E00A0A20C /* OOReturnState.h in Headers */,
+				0D1781AE2105DC0E00A0A20C /* OOUserInfo.h in Headers */,
+				0D1781AF2105DC0E00A0A20C /* OOVASTVMAPAdSpot.h in Headers */,
+				0D1781B02105DC0E00A0A20C /* OOFCCTVRatingConfiguration.h in Headers */,
+				0D1781B12105DC0E00A0A20C /* OOChannel.h in Headers */,
+				0D1781B22105DC0E00A0A20C /* OOClientId.h in Headers */,
+				0D1781B32105DC0E00A0A20C /* OOClosedCaptionsStyle.h in Headers */,
+				0D1781B42105DC0E00A0A20C /* OOCallbacks.h in Headers */,
+				0D1781B52105DC0E00A0A20C /* OOOrderedDictionary.h in Headers */,
+				0D1781B62105DC0E00A0A20C /* OOEmbeddedSecureURLGenerator.h in Headers */,
+				0D1781B72105DC0E00A0A20C /* OODeliveryTypeConstants.h in Headers */,
+				0D1781B82105DC0E00A0A20C /* OOOoyalaPlayer.h in Headers */,
+				0D1781B92105DC0E00A0A20C /* OOFullscreenButton.h in Headers */,
+				0D1781BA2105DC0E00A0A20C /* OOIQAnalyticsPlugin.h in Headers */,
+				0D1781BB2105DC0E00A0A20C /* OOImages.h in Headers */,
+				0D1781BC2105DC0E00A0A20C /* OOFairplayContentKeyDelegate.h in Headers */,
+				0D1781BD2105DC0E00A0A20C /* OOVASTOffset.h in Headers */,
+				0D1781BE2105DC0E00A0A20C /* OOPerformanceCountingStatistics.h in Headers */,
+				0D1781BF2105DC0E00A0A20C /* OOOoyalaSimpleTVPlayerViewController.h in Headers */,
+				0D1781C02105DC0E00A0A20C /* OOPlayerInfo.h in Headers */,
+				0D1781C12105DC0E00A0A20C /* OOOoyalaAPIClient.h in Headers */,
+				0D1781C22105DC0E00A0A20C /* OOPerformanceStartEndStatistics.h in Headers */,
+				0D1781C32105DC0E00A0A20C /* OOVASTConstants.h in Headers */,
+				0D1781C42105DC0E00A0A20C /* OOPerformanceEventWatchCounting.h in Headers */,
+				0D1781C52105DC0E00A0A20C /* OOChannelSet.h in Headers */,
+				0D1781C62105DC0E00A0A20C /* OOAirPlayButton.h in Headers */,
+				0D1781C72105DC0E00A0A20C /* OOCuePointsView.h in Headers */,
+				0D1781C82105DC0E00A0A20C /* OOImagesIOS7.h in Headers */,
+				0D1781C92105DC0E00A0A20C /* OODeviceInfo.h in Headers */,
+				0D1781CA2105DC0E00A0A20C /* OOAssetDownloadManager.h in Headers */,
+				0D1781CB2105DC0E00A0A20C /* OOPerformanceCPUProfilingStatistics.h in Headers */,
+				0D1781CC2105DC0E00A0A20C /* OOAssetDownloadOptions.h in Headers */,
+				0D1781CD2105DC0E00A0A20C /* OOPlayPauseButton.h in Headers */,
+				0D1781CE2105DC0E00A0A20C /* OOEmbeddedSignatureGenerator.h in Headers */,
+				0D1781CF2105DC0E00A0A20C /* OOControls.h in Headers */,
+				0D1781D02105DC0E00A0A20C /* OOMultiAudioProtocol.h in Headers */,
+				0D1781D12105DC0E00A0A20C /* OODefaultPlayerInfo.h in Headers */,
+				0D1781D22105DC0E00A0A20C /* OOPaginatedParentItem.h in Headers */,
+				0D1781D32105DC0E00A0A20C /* OOControlsDelegate.h in Headers */,
+				0D1781D42105DC0E00A0A20C /* OOFullScreenControlsTopBar.h in Headers */,
+				0D1781D52105DC0E00A0A20C /* OOClosedCaptionsButton.h in Headers */,
+				0D1781D62105DC0E00A0A20C /* OOAuthorizableItem.h in Headers */,
+				0D1781D72105DC0E00A0A20C /* OOPerformanceStatisticsSnapshot.h in Headers */,
+				0D1781D82105DC0E00A0A20C /* OOAdPluginManagerProtocol.h in Headers */,
+				0D1781D92105DC0E00A0A20C /* OOOoyalaPlayerViewController.h in Headers */,
+				0D1781DA2105DC0E00A0A20C /* OOJSONKit.h in Headers */,
+				0D1781DB2105DC0E00A0A20C /* OOVASTStream.h in Headers */,
+				0D1781DC2105DC0E00A0A20C /* OOVASTCreative.h in Headers */,
+				0D1781DD2105DC0E00A0A20C /* OOManagedAdSpot.h in Headers */,
+				0D1781DE2105DC0E00A0A20C /* OOVASTIcon.h in Headers */,
+				0D1781DF2105DC0E00A0A20C /* OoyalaSDK.h in Headers */,
+				0D1781E02105DC0E00A0A20C /* OODiscoveryOptions.h in Headers */,
+				0D1781E12105DC0E00A0A20C /* OOPerformanceNotificationNameStateMatcher.h in Headers */,
+				0D1781E22105DC0E00A0A20C /* OOPerformanceMonitor.h in Headers */,
+				0D1781E32105DC0E00A0A20C /* OOFullScreenControlsBottomBarVolumeView.h in Headers */,
+				0D1781E42105DC0E00A0A20C /* OOFCCTVRatingVideoView.h in Headers */,
+				0D1781E52105DC0E00A0A20C /* OOInlineViewController.h in Headers */,
+				0D1781E62105DC0E00A0A20C /* OOOoyalaAdSpot.h in Headers */,
+				0D1781E72105DC0E00A0A20C /* OOContentItem.h in Headers */,
+				0D1781E82105DC0E00A0A20C /* OOAdSpotPlugin.h in Headers */,
+				0D1781E92105DC0E00A0A20C /* OOVASTNonLinearAds.h in Headers */,
+				0D1781EA2105DC0E00A0A20C /* OOPerformanceEventWatchFileSpaceProfiling.h in Headers */,
+				0D1781EB2105DC0E00A0A20C /* OOAudioTrack.h in Headers */,
+				0D1781EC2105DC0E00A0A20C /* OOClosedCaptionsView.h in Headers */,
+				0D1781ED2105DC0E00A0A20C /* OOManagedAdsPlugin.h in Headers */,
+				0D1781EE2105DC0E00A0A20C /* OOClosedCaptionsSelectorViewController.h in Headers */,
+				0D1781EF2105DC0E00A0A20C /* OOClosedCaptionsItem.h in Headers */,
+				0D1781F02105DC0E00A0A20C /* OOBufferView.h in Headers */,
+				0D1781F12105DC0E00A0A20C /* OOFullScreenViewController.h in Headers */,
+				0D1781F22105DC0E00A0A20C /* OOScalableImageButton.h in Headers */,
+				0D1781F32105DC0E00A0A20C /* OOVASTUtils.h in Headers */,
+				0D1781F42105DC0E00A0A20C /* ScrubberSliderFraming.h in Headers */,
+				0D1781F52105DC0E00A0A20C /* OOAdsLearnMoreButton.h in Headers */,
+				0D1781F62105DC0E00A0A20C /* OOOoyalaError.h in Headers */,
+				0D1781F72105DC0E00A0A20C /* OOFullScreenControlsBottomBar.h in Headers */,
+				0D1781F82105DC0E00A0A20C /* OOSecureURLGenerator.h in Headers */,
+				0D1781F92105DC0E00A0A20C /* OOVASTResource.h in Headers */,
+				0D1781FA2105DC0E00A0A20C /* OOInlineControlsBottomBar.h in Headers */,
+				0D1781FB2105DC0E00A0A20C /* OOModule.h in Headers */,
+				0D1781FC2105DC0E00A0A20C /* OODiscoveryManager.h in Headers */,
+				0D1781FD2105DC0E00A0A20C /* OOVASTAdSpot.h in Headers */,
+				0D1781FE2105DC0E00A0A20C /* OOPlayableItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
